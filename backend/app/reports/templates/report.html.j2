@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Аналитический отчёт — киберобстановка</title>
+<style>
+  :root { --ink:#1a2233; --muted:#5b6577; --line:#e2e6ee; --bg:#f6f8fb; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink);
+         margin: 0; background: #fff; line-height: 1.5; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 32px 28px 64px; }
+  header { border-bottom: 3px solid var(--ink); padding-bottom: 16px; margin-bottom: 24px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 16px; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .sub { color: var(--muted); font-size: 13px; }
+  .banner { padding: 14px 18px; border-radius: 8px; color: #fff; margin: 18px 0;
+            display:flex; justify-content:space-between; align-items:center; }
+  .banner b { font-size: 20px; letter-spacing: .5px; }
+  .assessment { background: var(--bg); border-left: 4px solid var(--ink);
+                padding: 14px 18px; border-radius: 6px; font-size: 14px; }
+  .cards { display:flex; gap:12px; flex-wrap:wrap; margin: 12px 0; }
+  .card { flex:1; min-width:120px; background:var(--bg); border:1px solid var(--line);
+          border-radius:8px; padding:12px 14px; }
+  .card .n { font-size:24px; font-weight:700; }
+  .card .l { font-size:12px; color:var(--muted); }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; margin-top:8px; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; background:var(--bg); }
+  .pill { display:inline-block; padding:1px 8px; border-radius:10px; font-size:11px; font-weight:600; }
+  .p-critical{background:#fde4ea;color:#b3123a;} .p-high{background:#fdeadb;color:#c8641b;}
+  .p-medium{background:#fdf6d8;color:#8a6d00;} .p-low{background:#e7f3ec;color:#1f8a4c;}
+  .chain { font-family:monospace; font-size:11.5px; color:#334; }
+  .reason { color:var(--muted); font-size:11.5px; }
+  footer { margin-top:40px; color:var(--muted); font-size:11px; border-top:1px solid var(--line); padding-top:10px; }
+  @media print { .wrap{max-width:none;} h2{page-break-after:avoid;} tr{page-break-inside:avoid;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Аналитический отчёт о состоянии киберобстановки</h1>
+    <div class="sub">Интеллектуальная система анализа и мониторинга · сформирован {{ generated }}</div>
+  </header>
+
+  <div class="banner" style="background: {{ level.color }};">
+    <span>Оценка информационной обстановки</span>
+    <b>{{ level.label }}</b>
+  </div>
+
+  <div class="assessment">{{ assessment }}</div>
+
+  <h2>1. Статистические показатели</h2>
+  <div class="cards">
+    <div class="card"><div class="n">{{ summary.events }}</div><div class="l">Всего событий</div></div>
+    <div class="card"><div class="n">{{ summary.anomalies }}</div><div class="l">Аномалий</div></div>
+    <div class="card"><div class="n">{{ summary.correlation_groups }}</div><div class="l">Взаимосвязанных групп</div></div>
+    <div class="card"><div class="n">{{ summary.priorities.get('critical', 0) }}</div><div class="l">Критических</div></div>
+    <div class="card"><div class="n">{{ summary.elapsed_ms }} мс</div><div class="l">Время обработки</div></div>
+  </div>
+  <table>
+    <tr><th>Категория событий</th><th>Количество</th></tr>
+    {% for name, n in categories %}<tr><td>{{ name }}</td><td>{{ n }}</td></tr>{% endfor %}
+  </table>
+
+  <h2>2. Взаимосвязанные группы событий</h2>
+  {% if groups %}
+  <table>
+    <tr><th>#</th><th>Событий</th><th>Источник(и)</th><th>Этапы (kill-chain)</th><th>Длит.</th><th>Основания корреляции</th></tr>
+    {% for g in groups %}
+    <tr>
+      <td>#{{ g.id }}</td>
+      <td>{{ g.size }}</td>
+      <td>{{ g.src_ips|join(', ') or '—' }}</td>
+      <td class="chain">{{ g.kill_chain|join(' → ') or '—' }}</td>
+      <td>{{ (g.span_sec // 60) }} мин</td>
+      <td class="reason">{{ g.reasons|join('; ') }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% else %}<p class="sub">Взаимосвязанные группы не обнаружены.</p>{% endif %}
+
+  <h2>3. Выявленные аномалии (интеллектуальный анализ)</h2>
+  <table>
+    <tr><th>Время</th><th>Тип</th><th>Источник</th><th>Оценка</th><th>Обоснование</th></tr>
+    {% for r in anomalies %}
+    <tr>
+      <td>{{ r.event_time[11:19] }}</td>
+      <td>{{ r.raw_type }}</td>
+      <td>{{ r.src_ip or r.host or '—' }}</td>
+      <td>{{ '%.2f'|format(r.anomaly_score) }}</td>
+      <td class="reason">{{ (r.explain.get('anomaly', {}).get('factors', []))|join('; ') }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h2>4. Наиболее значимые события</h2>
+  <table>
+    <tr><th>Время</th><th>Приоритет</th><th>Тип</th><th>Источник → Цель</th><th>Обоснование приоритета</th></tr>
+    {% for r in top_events %}
+    <tr>
+      <td>{{ r.event_time[11:19] }}</td>
+      <td><span class="pill p-{{ r.priority }}">{{ pri_ru.get(r.priority, r.priority) }}</span></td>
+      <td>{{ r.raw_type }}</td>
+      <td>{{ r.src_ip or '—' }} → {{ r.dst_ip or r.host or '—' }}</td>
+      <td class="reason">{{ r.priority_reason }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h2>5. Временная последовательность значимых событий</h2>
+  <table>
+    <tr><th>Время</th><th>Тип</th><th>Категория</th><th>Приоритет</th><th>Сообщение</th></tr>
+    {% for r in timeline %}
+    <tr>
+      <td>{{ r.event_time[11:19] }}</td>
+      <td>{{ r.raw_type }}</td>
+      <td>{{ cat_ru.get(r.category, r.category) }}</td>
+      <td><span class="pill p-{{ r.priority }}">{{ pri_ru.get(r.priority, r.priority) }}</span></td>
+      <td>{{ r.message or '' }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <footer>
+    Отчёт сформирован автоматически на синтетических учебных данных. Результаты
+    интеллектуального анализа являются рекомендацией и не заменяют решение оператора.
+  </footer>
+</div>
+</body>
+</html>

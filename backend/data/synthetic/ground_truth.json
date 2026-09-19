@@ -1,0 +1,6373 @@
+{
+  "events": {
+    "8fac5471-e224-4cc0-af1f-12b92cd703db": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d8fed0c4-03c4-4158-980b-4873c258e750": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "e1a376a7-3b4c-47e3-9131-257245a6cf58": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1d06ec94-a1b5-48c6-9319-f1e6f9bf0230": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "76750ae1-2a8c-4d7d-bfad-0cd4df533f73": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "01ae26db-5e1e-4fc7-b8cb-f00401f24496": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c74e37bf-f28b-465e-9b58-88bbcfc5ed54": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2be6ec9c-a4f2-45d8-9707-5dcdc119c4fb": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7aae0bbf-216a-4726-a077-01c12197e132": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5d3fa643-61f8-4deb-98b9-83fd9b45d1dc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "517d11f6-5815-4041-b959-823644e8a46d": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "c8d0a44d-43b9-4498-b67b-e8887fddc7a4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d1c7384f-7ce9-4193-85b5-af9c919bf729": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b282c752-7ac5-4654-823f-27429aefd49f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "91ef4d8d-b267-42ed-8ad9-6f55d3093bee": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "0d77a590-fba8-4194-809a-439f38615912": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a814d8a8-5a06-478e-8a31-0ebd401f5ed2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "273b8836-ebbf-4925-aa05-8a305097d7a2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c0804f48-cc2a-46d9-99dc-72a717ab5e2b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "32cdbb8f-19fb-4be0-a307-0c971631ff0f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "de262509-4d74-49ed-af52-641842a56f8f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b8f951df-92a0-41aa-a08f-d83dce3c3d0c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cdabf4ca-b478-47ae-be86-2c8ceae0ad33": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1479904a-890b-45b7-b345-03b20a0351a4": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "addfb1d5-4385-43a3-a260-fc17c400eda1": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "3812d462-4d73-469b-bbd6-d12c9a865927": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9b215c2f-ebad-47ed-a8cf-622242f08850": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "07901919-7177-45c8-9985-ad71308b1984": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "19fe8f80-f2ff-4fbe-9de8-f96031052a18": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "d0264703-7eeb-4edc-a6b5-f6e945ef57ef": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b015118f-42c2-46d3-bd6c-69375c50a172": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4575ae3e-8b80-4757-aece-959f9d58e6ec": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "98a5fde2-e18b-4df6-bee6-7114e9946fac": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6d7c6631-aa20-4216-ae66-9ec5b7638824": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "512455d6-af0d-49d4-908f-ddb2e97207e9": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "5c47e5f9-1c1e-4c19-8a3d-de4901bdbf5a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7f84e8f5-2737-45eb-b86d-2c3b3b77ae98": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1799cf82-c1c1-425d-9150-9dda11b957b2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9347fbcd-5d8c-45c9-b81a-286af0be538b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4b308ea6-2fa4-4f6e-8e3c-fb8860fb3d40": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "445343d4-724e-4e33-82e5-094533700d0c": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "dcc1f7b9-13bb-4150-986b-87f229ba8d0d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6550d057-3890-4bb3-a0bc-df9ae027268b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a34678c6-0929-4fee-a79e-04ddd1bbd7bf": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "efe9dd73-a76a-47f9-8684-f29160da87cc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3e21c4c5-5e8d-4667-a0b7-8a4dec6a2b62": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "61a937f8-72c0-4b66-aea0-d34c845a14a2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "91bc44f8-7fcf-4ea0-b227-35fd7a93830a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "21033576-a6a6-4669-8251-3ab28eda987b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "433a8d74-04d6-47d2-a00d-27b1e09823d4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "84a9739f-4fde-4c66-9b78-f4a1ece7e204": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a43c8ef2-7a9f-4d93-b083-a5991af5613a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6c9964ee-8cb9-4daf-bab7-20c15562afc3": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "78d76def-d964-40f4-bdce-6088b74f688b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7341d49a-473e-4fb6-8503-6815bf8ee2e6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "19d0186c-d204-4186-80f8-1d51515638e5": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "75681205-35da-45b9-a4f7-a1684436e222": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0a5d335c-58c3-4fd4-b42a-40d0fa7b0591": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dbd17e96-3289-4e96-8a8b-079afb28b52d": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "04e0fed5-3f3b-4339-9b67-b846dbdfed09": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c45490df-1a67-42a2-ae9a-59c20bbef995": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f4648daa-8efc-478e-aac1-50d045d5c30a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "93565aa4-3735-447e-bdc9-a506c2b7c9a3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1d1bed75-039d-4aaa-9e85-01a5ab2d8378": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e40a09f6-9400-4810-9940-8999e5138f39": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "86f4b512-b387-4b98-babb-c75ecf172071": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8ed63d2a-36c1-4fb9-90c3-87e1a546c535": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "b3dd2e5a-7059-4ce4-ae5e-7ee39eea080e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8496356a-955b-4913-8ace-6da169d9899a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6f828f2f-bbc9-48aa-9e3f-9963434a0458": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f09d8670-57c1-4b44-84d8-6c20ace07465": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1d120a63-44ce-4769-b698-f4cfc5239db0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "40121d2c-49ab-4ccd-a638-750aa794289c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "eacfa717-a385-4050-a5ec-bb6b2b376c81": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6105ec10-bed1-4694-8f08-e2cb97b3ec5d": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "6eb1df08-a751-4369-9d13-967d94db1e41": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "621bae2b-8730-4bda-b8b8-df1952fa818b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5083c665-eddb-45cc-ba7f-303a0ff5b843": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0dd59545-2eab-427f-805a-197c100dc961": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8330e175-b483-4d83-9332-57ad10fc70f4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "906980e1-ce52-4696-9d77-accd2b8a2f25": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "12793249-d1bc-4f33-b69c-08ebff8509df": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "317f4fa8-3f00-491d-bd4e-814a4858d852": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6bbfdf00-6a65-4325-b5fd-019bb96b88ad": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d086fa1c-0f74-4d9c-9166-3b4ddc4b1f9d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "56e3eb76-ae0e-4e46-a439-a416ece6ac6c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "381d67f4-617b-47fb-a5ae-afeb71283d41": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0db89083-9864-41fd-b549-c8aa852c3d40": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "534d93db-e3de-4d2d-8a21-7f6c2a609c2f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "9b819d32-743d-410b-9de3-9f51b9793030": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "93759586-8e10-4277-b9b7-be957d3b5f8c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "273be44f-4909-4a70-9335-a6cf8d0dfa1f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "41ca1f7d-1650-4ef4-9ccb-b674f31aa09e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2c41ac6c-5791-4346-bb80-e9ab3cc8d68e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cd773600-7084-4b31-9bf6-8b181799c31e": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "b11705d6-7bd2-4e9f-a6ed-062650d8fbc1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2f766893-8035-4fe9-acb3-9a52fadcb725": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "da4ad030-2ff6-4cbe-b31d-2d08d13307c1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0d185a30-024e-4ba8-b30c-0323d8199252": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d82f953a-8d56-4f93-a89d-76f449cd5be1": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "94a46d33-4285-4276-911c-c5775194f990": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "afe398f2-8dec-4b52-a2e0-5969a204a284": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fb4a2008-7d89-43c8-8b97-c1698fb1ed78": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "553c0d20-54af-4d0a-9aff-4a6755bcce15": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "efaeeea8-6562-41fd-9055-245a0730e100": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "83021a21-2d32-4118-bf0a-be06e37f19fc": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b30de04c-7d17-4096-94ff-8f143c9b1fde": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "79b41bc9-0a57-49c0-ba8a-2d0f05cbb1f1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2b676f42-0d09-43e7-8d5d-41459a435a2b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d21707c1-674f-4386-aa60-fd590eb897f8": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4c8be14e-974b-4815-a9f3-0b7f0adb044c": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "8e74913b-4daf-49dd-88fb-a0568914bba7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a1a82c72-4c49-4de0-84cd-ac904cc526d2": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "03783b4c-2a35-4683-a24a-467d7e318abd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e3867cca-c327-47b5-8312-9b97acb1363e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bcd61615-bd2f-4a53-94bf-4c4c7a5272a6": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "5af42ba4-a5d6-4978-b419-00e937fb8c5d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cf0e49b1-2a9f-4814-8951-cc5ab2632a9b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "36e487b2-46b0-4737-9ad9-0bd775932796": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1eaab30c-7969-458d-9af2-0afea92a5327": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7d1daafe-abd3-46dd-914c-e3ce5655d518": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c6bff102-8386-4f98-aeb9-f0603e5a9ad5": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "35f6f9e9-f1c0-4205-9541-af5c11257f8f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "93d16f00-cec9-4a8e-842a-8bca63e88077": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "23001aaf-c9b3-4c75-a657-867f658f8e15": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "63402599-d816-4a0c-9487-3445511825d7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2d56d596-104b-40e4-ae92-6f339044ce1a": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "6d49bcee-7669-432a-b9e0-e5b3cebcd7e4": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5702b032-fd57-48f0-8935-9ee33f7003b8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ba19f216-c417-4de0-8af0-2dfa3f676311": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2727b7f9-5baa-4436-86e6-d316531c30f6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8f0e5d3d-74ea-4620-9b9b-5c3e552cecc2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dbe0ece8-9ca2-45fd-ba9a-b8997d1c2f5c": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4ad3852f-ffe9-4b9f-9fc7-55fe5fc9845a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "99daaba3-dbc3-48ee-8780-fa5dffba9ab9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cbb2bbc8-5811-487b-83a0-af38f48e1839": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "44935406-e72a-4c5e-80aa-f26dcfe00e6f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8a1f6be4-e750-44fc-8036-989a093059d1": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "80f68852-be0a-4df6-a6fa-810f82166d95": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "97069c28-898c-4746-93b5-7759d19c10df": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8e68f7dc-916f-41a3-9977-c027c035fd18": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5d8f4f91-828f-436b-8cab-016053243760": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bc3c535f-e859-4aa3-b021-7868fcfa2968": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e0c5e438-b344-40fc-a1ef-959b22a57ace": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "610d8cf6-9a79-4e35-ae87-84ee1b58a9f3": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "703de4ba-777f-4c31-8c7b-08533dbcdb46": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "41d8b52d-749d-41f4-9cf1-8ba948f79b1a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "acdb1b97-91dd-498c-b614-425d90a131de": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "50eee93b-8376-4297-b483-14b847088d4f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ff91e79c-c54f-44d7-813c-90c2a9430b61": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0566b043-dfc3-4f9b-8f3f-731f8defa76d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b9ba942b-2d8f-4d21-b357-a5d41e1cb174": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8f2a053a-fa32-4ce8-953c-bc156fca7b65": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "73a9a864-cbb3-489d-89ed-bf859ffb40f8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fa01be2a-cde8-4c2e-995f-dce04bc9fa2f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bae47d7e-9d35-4815-9f66-e51f5bbc44da": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "c3468575-36ac-4eff-9460-280b4c76cb3a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0551c672-f708-4488-8053-0b89d6fa4fb9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0f27945f-3562-417c-9148-b8a1e1d00c2b": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "b5c71026-c0d0-4854-b15f-da720fdb9bf7": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "71502a29-edc0-4cc3-aafb-51e61fafc436": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e5ce5546-b7b5-42cb-88eb-77e240a19f4e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c4b23320-79ea-45d6-943e-0d68c7d2aeb8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0c7ab89d-0e64-48e5-94ed-0c247f68e258": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "618d0235-4564-4fc4-ad28-6a31848d7ab3": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "79f9ffbc-ebc0-4624-971d-f76ebcce66b4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "48ea79fc-eee7-47fe-8272-c3ee1b6143ff": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4316bcfa-fc90-49e2-acfc-69965808632e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ca5f7ead-57df-46e7-8153-320e04c70bdf": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6e20ef93-202d-4e29-b8db-953e24820b2e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "64b85d31-722d-4107-8fa5-18608785f3d6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2178cdf2-4f80-478e-8a1d-31343ea43867": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "168daa53-535d-4bff-8942-d5ba100f53b2": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b433b560-b3fc-4411-ba4a-03e7ec610156": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2ef3dc5e-bb35-4f98-9349-d5669341767e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "03d7f919-bac3-4088-9eae-91c75edc6790": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c935605f-b781-4e6e-b0d8-32b2661727a4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "278165d3-4e6e-4fbb-bba2-da8840b9a87b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dc71ec86-af90-41ae-ac1b-667a7d0ff8ce": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "945feb47-c170-439b-a6f2-21d80aaee0bd": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d28a9223-6dba-4e2d-893f-64d43b9f5a6b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c29bcbbc-3f09-4569-9ffa-e7591eee9038": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "67ae2f48-464a-490e-95b8-ed7a3e69b7e9": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "7dbd9cab-8403-4ffb-97d1-9815740dc7a6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a649ef4b-45bd-423f-97f6-e74a26c696ac": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "20e2add9-438e-4277-831c-75567963e45c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e0467722-2693-4358-8fa9-983a7e7f0987": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "94e43a9c-e777-41e4-a450-d4608cf40010": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "30799502-5677-4579-89cd-66a45c239ac4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5807a64a-8b4c-4ccd-98c3-a2b17bf1d9a5": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "d3356713-9e8e-492d-a9b9-e6785a4bf23a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fb4d05d2-1d06-4721-b62e-5632b35aad0c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ff50ee64-eb6e-46ab-a04c-e1cc965a3bce": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "736ed2ea-96a6-47a8-be86-bb8e91581405": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4d3145fc-c554-45fd-b6f4-32183edc0404": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a1cfa757-d768-4b15-abaf-2eb49544098b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "72ca3466-2bd0-4948-b04a-226f5d053795": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "837005b4-e988-462e-80b8-7eb4204c0d9e": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "efc9e46e-cbc4-4294-ac41-9e35ba4250ad": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7d6c87c7-62cc-46ca-bde3-cbf71f6d528c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "45810258-2c94-47a3-9d9d-956abe63daef": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2ae30c50-e69c-4033-97ef-02b3506fddd9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a2b24aec-50d2-4553-b2b7-2270544dc1a9": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "48319cfe-46fc-48d7-b542-4b01efa8c482": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "dfcef79b-45cb-443e-aadd-4ac8ea8c15b6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3a9100d1-f0d2-41c7-818e-415cf452b120": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "620f186a-daac-481d-a175-21ba9a3818a7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c6ddbfc2-d00f-442f-8d13-b56ed32bfe92": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "528ed455-6538-43ab-92f6-30cbdad706a8": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "72a5e7a8-bbc3-4ccb-ac5c-85cf90fc9571": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "066aac07-7aaa-4b06-98fd-1cfa03de6e80": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c86e396a-d81f-47f3-ae34-494359d6501f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2903aebe-0b95-4950-87fd-fd315206aaf0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a2f5c597-33d2-4f06-b333-46a7d62bdcbf": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "91cbda3e-0722-4a77-8976-b3cc54448848": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0597c6e5-24c4-405f-bb56-e74936fb36ca": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bdaf4a1a-02de-4794-8753-a394575589b7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d38c896a-5465-40fa-86d4-c4547302ed9d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "424202b0-c654-4afc-8fcc-2ef7ff2ad743": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "d9a4c4d1-8cd0-48a3-bb00-234a0a4fba37": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ab3758c6-2f6b-44cf-b1d6-992878406c83": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "79b52e74-d841-46e4-907b-3346bfb90994": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "346943e6-ee53-423e-afc7-dc01223e063c": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "a22c9552-6ce6-4514-aef0-a116f98f532d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "61307483-9862-4b03-94b8-8c3c5676e7d1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7019d783-c0a7-4866-9fc3-a350fda13870": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "acd8966a-0f04-4322-a7f6-6bc4b9f96998": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1b597844-0168-47e7-82d7-14427f579255": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b92fe80c-f610-4b30-8dc8-0ce845f95047": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "08cef433-b113-483d-a38a-e4f6966bba56": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8a802635-188a-408b-b6c6-c66f81f1bf48": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ae3c5610-fe42-4a47-b770-d021aab09d8f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e53f4a66-8a3a-4b11-ad77-33f266e7b53a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "93cad75b-5257-4146-a6d3-625a5d1a19af": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "17188ec4-71c8-497b-848c-cb7497c3af53": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "dc0b3499-9f96-4849-81e0-0ca1a380b745": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e875b6a9-ed2d-43f7-8bcd-ccb6fc310fbe": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5ac21015-51c2-45ad-a95e-2788249d67b9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4da603d1-06a8-464e-8b5a-5af373227e23": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1dfc3789-3070-45dd-ad8f-b592c9aac45a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "07c294d4-3c14-46ee-be0c-c558c7874988": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7b60c150-987e-45ad-8cec-761bea3fe474": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1a205520-df9a-4314-a4e6-d8e194544dd9": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "f8eda72f-0896-4de2-9f5a-60ca618dd57d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1262f1a7-5a63-437e-9589-15245d85f5d8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a0045ed1-ca11-4a48-8d8c-5fea1f5bb5f2": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8d8b65cf-e680-4d22-8e6a-9f18267bb8e2": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "db8f9459-e2f4-4c3f-a712-d8120ca79810": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ba23e0a1-e0d2-4d89-bc2b-a94c6ec1c17c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6651a7e1-80d3-41d8-bbe9-da21209a58d5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d876edb5-f95f-4518-aec9-667fc0bbb7e9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "951b4661-795d-4473-9a52-ae057def2dfb": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "035cb945-79b2-419b-9691-b07e28ddc64d": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "f76800e1-dfb5-47ee-a2c0-5dead93f715b": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "eedeca5d-acaa-4a85-8ad6-b3d82c001c8c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e282791f-6d7f-400c-aeea-6c7bb4da3563": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "daa7cb76-54ab-4a5d-b87a-7dd83c3d4035": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7ac330cf-2320-4e21-818f-594b8e9d258b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2c6bdc43-9085-4b31-83eb-ca0e0754215a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b63bef4b-bc4b-4a26-a1f0-7082f8f8e8cb": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "986c6f04-a12a-424c-aba4-f1acfbf07c35": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cbbfbc44-7c7c-4b16-bf9b-4fcb08774647": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "9e616aab-7760-46b4-864a-d02d3cabbdea": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3d22b96a-fcfd-44d9-8497-36e74a596dbe": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ace61783-1fb4-4782-9356-bcd62abf989a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b8487429-b8a8-4a26-b39b-9dc0fe2e42e6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "642f0b4a-4322-498d-8fe3-f58b96edc866": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "47e376cf-d5a2-4ad6-92f5-a635cd42429d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e5abeeed-cbc3-422b-8886-77de66a074fa": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "01b25bb5-6012-4691-8b92-b254043530f4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "f6b15193-c554-4d8b-b84a-7643b5d4f569": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8b0f1044-5540-4dce-aa8a-097af4200cab": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "88abf2c2-55f5-469c-9909-8e5e3656c9b7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "10a6193e-2c8e-488a-af3b-fc9db688d06c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ed0e2bce-1d3c-4cea-8c53-d2ed65e02e00": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "37826c30-6c01-4155-9b7d-50a5d636ba81": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d1ea411b-eeb2-4a29-afcf-c84767b4f2f9": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "483e5a97-b24e-4b0a-90a2-1e5c1dd5fc03": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "e4c327a1-d215-4fc2-b528-97f3ee235a6a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b9a2f505-853b-423f-9cf3-684891ef11ad": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "76141fcd-6d89-4f4a-9b43-590fa9a87657": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "13592625-0bbe-40c8-9a19-516cc026dc76": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e4f2568d-96fc-4569-bf5f-9bf771148fde": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "72483be4-ba58-467c-9f80-0b34858b3d47": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "98152cf4-3e41-42ce-97cf-7f36c0eb9759": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "b3090f9a-ae31-40f3-b1cd-6def34cf4db6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b6cc6a68-ad5b-4af4-8912-cafc8adfb558": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "66f7ef64-69f3-4486-add6-732a391f5a1c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3239038c-c2ed-4f59-bd6c-5fd01ad86099": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "00ece372-e518-476c-bd99-17dab0971554": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9cf4a9f7-f7a2-4d44-b37c-77aa3c11bd9f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "45b49a2b-b883-425c-a8b7-c87ff73900b7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3cb352c1-29a2-482e-a6f4-63789f1141e3": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "218c499f-f611-43b9-89f0-8e21fe6b41c9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cb717752-2651-4567-8af9-87d4ccd5107e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0ebd66c4-2d70-4805-b923-b6a9442bac48": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0997ed67-7010-46f8-b323-b81c22417e3c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b88c7fd0-c080-4137-ab9a-344fab7168f4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "74db464d-5c6c-40fd-b59b-ce0b69fd6e87": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2f90f5f4-7cbd-4070-b1ea-a6de34b98853": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c975c68c-23cf-4bfd-af65-d8cd8f9699b0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "081ada10-d582-4570-b9fe-e9d8b2a2946a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c01f2594-c0ec-4907-81ae-018f04b2c763": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "084fa35d-1def-4da2-a95e-3a7bf541088b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0bfbf606-18e4-4aec-a03c-7e126a03e0bd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "775e1863-33ca-4aea-aed7-b1467a82b45f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4a4d26da-0308-4a11-8c56-d6db3f4fed31": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f1e02ee2-2272-4a1d-a26a-c3136dc189e3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f44b5265-f14e-46b1-bdd4-62ea2e7b8ba8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b69a7078-796a-471a-a0cb-faa1288d7bff": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "be6f2890-09f5-44ad-a214-bd10c6cc3c92": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "916b7b1a-dbd5-4e3f-9765-5fb756b006dd": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d020996c-d1b8-4f04-b0c5-0febcf0e7f4b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0d13b21c-8b50-4a49-afb6-ccfe4b20e397": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "505fd121-9c5c-422b-94ce-7a8b36a14528": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7f6152e4-3232-4ec5-b3c8-1722c8309dcd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8e8d7df1-21a1-4122-9e8f-dc2c547a8cc4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "2eebd60a-cd00-4572-b884-918c39b4a00d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "403b8c2b-7c6c-49fa-a679-4c62ec6fa4ab": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d2866bcf-fd3e-423f-8e16-2fafe9abd0bc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "90803951-a691-4059-93e9-a0d5606ef0ef": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "28bb9c9f-2b9d-4227-9010-f04d76056e14": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "127e9716-7619-4ee0-9deb-b72c0d49a74b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "915debcc-4a1a-4092-ace9-7fbd4217dbc3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "25d01c9b-7029-4101-85d0-e70f69c45a0a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8d34d031-9efc-4bf6-9b98-95635e540689": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "1430643a-7965-415b-ac11-08acea6dcf34": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3ad35f24-6958-49cf-a7cd-807d01d9bc16": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e4d20c97-7162-49f8-bd0f-b22f9f8bcd84": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9043a24b-cbfc-4929-9895-689da51be35b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "74aad7bf-528c-43e7-a8b7-53ff50ea54cd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ce28a882-1238-4f0c-894a-8066d83ad5d5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e82b1a1f-a84b-49be-adeb-5d9caa75346f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fd61eeae-50f0-4262-8a52-64263053e0da": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "173db00f-8ed9-42a2-ab2a-736d1a7cebd3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0c5b0349-7484-4fb8-8dac-f7a663ac6995": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ba6b8325-f6cd-4fc3-9adb-34aef07c4cd3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "276cceee-8126-47ff-b674-aedb143723e5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dece2d18-f230-4baf-bca4-a37b84acef66": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "83210a75-c498-4600-8033-82424e7f759c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f75b7214-5e4a-454f-82f4-e2009143c7d6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b0c6dc68-8f13-4bda-b833-218036d7648b": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "2bb16a8e-bc7d-4141-949e-8c32413eaf89": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "12258119-7cc5-499e-bc85-4d639e65064c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e005fe4e-9088-4376-8803-5229e911e2af": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8f696f2f-a1bf-4725-9d06-aca978c9cb9a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f1f98d38-9df2-42e2-b4a3-0decd94ee943": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a4c20f67-a9fa-4f39-af6f-430ed3ccaffa": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4d9a51d9-bdc7-457c-a054-94a33509115e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "24ff935b-c9b1-4edb-959f-f8f17e22017b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "63203e2e-cbdf-4737-8baf-ee9a4ee5cd45": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5fa8ee6d-1209-4412-a71d-3da9d1cdada2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ab8788a5-d373-4752-85c3-24fa2efbceb3": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e1c6c19b-8eca-418e-a107-3f67a5e7b83e": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "c41674c4-6cea-4f28-9c00-4a674b2a94ab": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8e208e39-8b25-44fb-aa64-c9adddfb8917": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4d791ee5-58d0-4727-859a-d27d8f11b5d3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a1306e11-d1ee-4a3a-81e5-d7a372d8b0ac": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7aeff6fb-7436-416d-813d-c1d71a8a467a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "26e98c0f-b8ae-44f1-944b-6c6ca30836b5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fcfbbf9a-2ae0-48b9-8437-50b2810fa09c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5937daa1-1b33-4b9d-b27d-f3a62dc0a2fa": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "813da327-def6-4f75-8025-992b7367ea14": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "855b2010-e1b6-477b-8d12-4f4410ed53c7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "52f12810-8d04-424e-aa2b-e6947f67600c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e162bca1-bd35-4d83-ae0c-49635800ebae": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c040aac0-cd33-487d-bb87-84f9c545ae4c": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4d727719-95a9-4d22-9370-01fec2ce11cf": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c4189fce-5678-41ea-ae8b-1f3364b5f56e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1bd3fed1-2560-4d5d-a2e8-5bc201a9653f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fc2df2eb-9b16-4d6f-b932-a26f5e9f5ed0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c227185e-7eb1-4694-b3a1-f90d2fbd6c0c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "40023922-d63d-4736-8c94-7c53d3f1eeb3": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "506eb0f4-56aa-498a-b1dd-4b18e0414c27": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c9a2130c-b722-4253-af33-3c21301c0d95": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "6c59ab00-1e01-4b70-92c3-14159de34298": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e70b72e7-8bbc-4ed8-8c32-d52c081f6974": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9648ed22-f147-46fc-9fcf-8ce3d3b55996": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "35e92b3e-a60b-44ce-880d-ac35921a5898": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9b9ba78b-8a05-4ce5-9e14-04068459319a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3b78ed50-f75d-44ce-9bed-a19241f79ed9": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "e8341754-6ce2-458f-a2d5-1ffbb8ea6443": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "92969ed1-a4be-4768-b02b-70ad7f85df79": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e08a5f3c-d0c3-400a-91d3-3fdb7d6bca89": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a5885c54-a261-4650-a2ba-ee621c77a597": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3155b3ef-5f28-4b6c-9e50-42a21e048d46": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c45441f5-a1f4-42e2-bc70-dd7c5b29d587": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c4eab06d-203b-49d8-8c3c-c73106f0456a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0b7a0e7d-e696-4051-87a6-381e2020fad9": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "353a9c2a-6e5f-4bb8-bd64-6c8e1ff3b0a7": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4b9fecc6-242a-4224-90cd-241359f48400": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2fb11671-4159-48fa-b640-b989a939e61e": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "a9564398-7a91-4fc1-a5f6-d011dc46c033": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3e158aad-b15a-411b-9b98-a1c827041b9e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9b93982d-e572-4958-9ecb-5484c266fbc1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5554f2ac-df67-4a0b-8c67-6acdf3d35cf0": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e79e5c41-5fcc-4df7-8598-c9d790fe7dbc": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ea93d45f-180f-406b-9e00-8f4dc6e66858": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5432f297-e40d-484a-940e-816c935f8608": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d659504e-890b-419b-a165-2518a4b960d4": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5ae4c483-4555-4b78-93f1-573d70933b88": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d29431c1-52f2-4406-83c9-d023caabd137": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "50fdd332-d11c-4547-ac1a-f3908f074c69": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9259d5f8-77e2-4539-b118-4eff3061b79d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4ae1f52e-5971-4990-9bd4-f119affb9457": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "300c397f-1f35-4f11-8e70-7ef415b34191": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "31bc5da9-47ab-47be-8d20-9085c1790c5a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0ae93d13-8a87-4f1e-8aa7-8a51ce32e2bc": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "25badd2e-ed9c-44a1-8241-a0e51a01f107": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d8685ec5-1893-47c1-b504-153c408a9114": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "7e16a106-6957-4e62-9fc6-2c62e9d660b4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a2dd1780-4f3a-4608-a09b-43ff10c958bb": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "96350f96-e164-42ef-9d44-bb939e011c84": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c0838228-16b2-43cd-8677-dbd0c00fdd61": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a450c0f1-d1a1-4e69-a142-2c42e04e22e8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0ed45145-72a8-456d-8fd4-7bffabc8aad8": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "d6b39ea1-2b55-4697-8449-77f474b7eff0": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "35fe2991-ed36-43ed-91ad-91c4fefbef84": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "220dcacc-e4f3-488e-a215-540d04d3d1dd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "836499c9-8479-408a-8b5d-6fe2f79a3b1f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e7170cf6-d45b-4776-a90d-7fa14d140f2f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4a6fd0a7-bac4-4559-b6ee-589fc2714c33": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c9a2429f-0bee-4a73-b510-2126254892fb": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2273146f-9f27-4401-a6b9-9aa483f95c35": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "87afe769-e5d5-4db6-b378-0756bb13f26e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b12cf304-103c-4780-954f-6051bf73ec9b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "db2d1222-111f-4cf1-8a34-b152120837ee": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "7575a819-b31f-4178-b438-6c619979b2c8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6cfcd821-14a1-46d3-88bd-0d1dcbf3a314": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0666c3b8-ffdc-4596-8abe-222e743ebace": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f50b28a9-1780-492a-ba59-f4bf591201b4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "080a1d86-726e-404b-adda-c3c09429779e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fa773367-ad7e-4567-8016-dc806a0d6105": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c9b3aeb2-2d0c-4516-a0b2-a881eef84207": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "67913d8b-57f8-4fff-9969-439c4cb65ff0": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e3ae91cc-490f-4d6e-866d-fd02399609b1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b3069aeb-ae26-4e59-a7e0-112f68630d76": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "409b517f-134b-40a2-a881-746fcb28e152": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "86241af1-2cfb-46a5-93f8-4b5afc0509c9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d9c65631-7617-4fb1-a678-c297534aa370": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0ec4e752-1e2f-481a-9672-d8f54e2edf32": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1dba9eee-e259-4a96-885e-8403a9011871": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "7f5a00ba-161c-4654-83a2-6716e2ace542": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c8074f96-abea-4de2-9058-242e8497cca1": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "6e2c6e5c-ff01-4474-997b-f407ad11f8f7": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "72bf7a56-51bd-44a9-9129-3a896410c658": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "201c592c-359c-495d-8e69-577a52b07f85": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "0d78180a-3508-4205-ae03-f4d07c1c222a": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "7d2d3aa7-569f-4ad6-b042-855b7fcd7a2e": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "4f49821e-373a-4a4d-8824-fbf8c4fd108c": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "eb0be836-d822-4944-9275-147ee9e9e876": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "21d5f10d-8dbe-4b7c-8a00-68f4d26e13e4": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "939b6f15-8701-49bb-bed2-4ae31672175e": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "bd3a0b98-c599-4907-950c-bf54658bcc2d": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "235fdbf3-efe4-4273-85da-cca97e9cfbb5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "570431a7-a610-4411-90ec-ca2f64797a83": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "33d2d769-a4e6-432c-b076-2bc154ad3d6e": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "87f32116-51d6-40ef-b583-5864e44a4059": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "d496ef5a-8070-493a-b06e-09973b59cf56": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "30dade73-ac21-4901-9d7a-740202e40b1a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "17be1b0d-c0d4-4f60-9c17-678592cdf40f": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "e4766236-7614-4aff-b01b-ee53c6d54ee9": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "3e0f72b5-cf5f-4c00-833b-39b870e53f96": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "65cc210b-e2b0-46e9-b28d-0da683dd0035": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "16623f85-3fd0-49c6-ac15-fbb4feea0a11": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "18e5a1ed-fce7-4fbf-abae-684369fd202f": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "83a95897-be40-467d-812c-189836cecdd2": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "6233e35f-a383-440e-b49c-e4e2d2182a3a": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "85243695-71fe-4573-9e67-5726cc45a298": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "d25b58ff-5885-49e6-94fc-8ec04859d3b3": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "c2af8eaf-2507-43ac-9aee-fd8e0467e0bf": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "68c6aa85-42fc-4e01-b50c-598986fd13e2": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "1055f39a-2fd0-4b49-bdaf-5db65858f09c": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "87bffc22-3513-4f07-80b8-a18b2f6ac430": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "1ba0ca88-63c8-4f5b-9e64-5ae6b0c08eed": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "56bc9347-a808-443d-957d-a2bc147e91bb": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "e4761d7e-3efd-4370-8a18-4cd54de55c7b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d11d580f-4f79-487e-90d6-7b106c9a87b1": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "c8d8e5a7-2d93-426a-92cf-8f1aaaa4aa4c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5a6063ad-e21f-4fb1-8dec-7f3d3dcc4fec": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "eb52d3f0-9259-4d50-b8a6-9ba9ed623087": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "d296e30d-b784-4772-8313-ef3595b4dbb6": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "afc342ad-a881-4ad3-b16a-e192a84b6194": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "65190237-d8be-42fa-b9d1-0366c9f460e0": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "d52bccdc-fd91-4741-bab5-226405c62d56": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "1de8fe95-1db2-446f-85b8-e95f660811f6": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "05751d23-c4cf-47cd-81bb-2ec854e7fb5b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a9e46c15-2b64-49ec-a34c-fe8a1c9432af": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "fb764048-3ba1-4db5-942a-719a304eb9b3": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "cc27c02d-9e69-476f-bb64-08743ebc998c": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "cba9e2fc-3fb9-4c62-88ab-29b6bb41efe6": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "8dc91666-06a9-4c58-8588-28cbcb32aa71": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "f588f45a-2cec-44b7-8f0d-12ec0447660c": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "238ab97a-0e61-44da-83eb-16e120be2495": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "299c9155-cd39-4e05-a0df-152a14ea63d3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "01869361-db90-42b0-aefd-4c7ee11cb0ce": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "cd322c23-375b-4ca4-a4f5-0de9c36864f7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "21a0e6fc-1015-4763-aa2b-1414c7216ad7": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "310eee17-d210-439a-8edc-8397ba050f4a": {
+      "scenario": "bruteforce",
+      "category": "anomalous",
+      "anomaly": true,
+      "priority": "critical"
+    },
+    "bc5de384-0ea7-4b8f-9419-d37b8b326cc0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "248ae1ca-3135-430d-994f-7cc348225c3b": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "b383b608-fa85-4a43-8b56-a8b38d5336a5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7b5aab16-3104-432c-ac8c-7265f9cec96a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6d924c59-2d93-4e32-8ec1-5f233dbf4bfe": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "788c51f7-7514-4a47-93f5-70828cf08404": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "71df7b37-bb8b-441b-8193-b0788c452021": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "798b9ec4-370e-464c-86f5-b1dff9fc5d2c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8ec2aaeb-ec80-4b7a-bb82-2990567db2f4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c0e00532-aac1-440b-a14a-946cf8f589f3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "041e8681-ee24-42d7-8656-81ae09d2653f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "741af462-a1f4-4479-9c53-07f1131a992e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c00af801-69cf-46bb-9b2d-cd97f11d82cd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "73a24888-84e1-4ae1-8f2c-7ec737119187": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ed20d513-6274-4d4f-bd11-4f0deedef9d5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "87449af7-0158-4144-a345-ba14090611a4": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "30e3ae32-9f93-4a96-991c-d2b6c82bc1ff": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "60d9580b-caff-4e86-a547-5e809ff12f61": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b4dce4f8-5847-457d-982d-7cab3fc69bac": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1768cc89-06ed-4d30-8581-e05a67a61778": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c1c2a22a-a6f2-473f-b784-be4931559f90": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "bcdaeb33-3841-4d90-b4c8-69816b2e0642": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5e3f06e3-9c64-4247-a03f-0a88c62a5c8b": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b2ae9e76-5e7e-4d17-9495-f71e1af98833": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0b0d81a1-4efa-48b8-9296-cd1b506e5003": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d9a013d7-55a9-435b-9d0c-6273f5ddceaa": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cf57a172-ce0b-457e-86b4-13c3452176f5": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "9a17d17f-2681-4ffe-9f77-acbd249dd121": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ac3c16aa-6e7b-4a55-856a-68df5e09d3c2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "73b106a9-5e7a-4f7a-9d41-18ee8b67e4d9": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a7c15113-9290-46ed-b1bd-c346ef3b7a5c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8110b66e-ebd7-48d5-87e9-fff17b6fc60f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "62c39aff-668e-4302-908b-4d4bc3ab8011": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "86f3c1ba-b913-4a49-8af1-f332e3ef8af0": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6a9fc6cd-7824-483f-be2f-16b6276c9e67": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "58d3ef21-a8ce-4348-a76c-26269e208c92": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "25bf0252-8b88-4bc3-8715-7e333925a12a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e23f5b54-1c6c-4007-88fb-8065deacdfb3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "04419eb6-ae90-435e-a71c-fec8b00ebe87": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "6cebae48-15a2-4b44-9688-b4f699a2af72": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "50961f54-2a31-4e4e-8096-f5866d7cd6b6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5f6e8bcd-70ad-4738-ae3a-456733f2c2d8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1b4481d7-e038-4747-9fb2-15bbfeec6148": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7df68a10-5fa6-4739-9afa-6fafd8c9d5f7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3a5aedc6-7312-4c30-8f9c-7e22089921a9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "87ec0e39-5e0b-47cf-8779-de1fea848580": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1f7cd1e4-80d3-4439-b3a7-8d97160bb55e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9253f7fa-6139-4094-a175-15ab88155277": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ab3a43fe-7506-450a-a7ab-685813266dad": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "0cee5ee2-54f0-48f0-a9e8-baf553c62487": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "29d8821d-7914-479d-9fe7-5011bfddc450": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a1e0119a-a523-47d4-80de-9a1091217546": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f2c5209a-cd88-4be2-81cf-b310747ebc17": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "134c3647-c382-4774-b360-ddac1fd105b1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "aaefb6e9-05c2-415b-9baa-6f961b0faf7d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "53aadc5b-4c69-4344-9ac1-769e924bd9dd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "59177f9f-e2a3-4957-b258-9b8e07d3b4b1": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "49b10ab5-fb39-4fa3-8e05-20289035115c": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "f87fa355-81a8-4334-8292-024d7db06aa2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "938abe2d-4929-48b2-a594-99ed726900c4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7a0b8af0-f3ac-4916-934a-2ac41f80825a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "089b1ea1-85eb-49d8-b202-4b84ff08af9c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e7639e46-4ae2-40b8-8450-a4c66adc574b": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "2a81ee60-1139-44d5-a046-c8539eb81103": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c023652b-3036-4aec-a78a-03842a2ebe7d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c6d501b0-d122-42c7-9e6c-91ed9f215019": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3b8b4ec1-1b49-4ce0-83fd-268fdcf4243a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b0d9d41d-d10a-4f85-9a18-be9b7e6dc682": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "75bc3f24-0a66-4324-811d-2b3b264821fc": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "152196aa-d8b4-442b-bd4b-79750cb539a9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5c95a13b-584a-42a1-9fcf-3c29eb2df667": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "33ac378c-5a5a-43d3-af65-4105bad61ea4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "32fcb4ef-3459-423a-b352-c0f65c72108c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "791906c2-1bbf-421c-a2d0-f9fc5aea899f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "50d5267b-e0fd-4e5f-8e6d-ab3c4ed9d743": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "7065d543-c1cd-40d6-a608-fb3a5c48332a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "683942a8-cd76-4128-b914-2bf15bccc953": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8ac2ee23-7655-43cf-abd0-97b84e5334a6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "851bf536-c138-4f08-9acb-1a9bca2216ef": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b4820732-1154-4563-9dab-1e8e3c496491": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1b3db8fd-af38-494a-9218-9379d6354a0e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "67ea613a-59dd-4a04-a7e5-dd7ae8ae3d14": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "321c739c-e201-4f79-b916-12e28fa42a5e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4d46f419-e8ce-4ba7-9337-071999f780e4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "2f43f02b-506e-47e6-8470-a255fd71a023": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7d202183-b1f3-4944-be92-989c56e972d2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8d2c23b8-d700-47bd-b49c-05cc3c8d1db9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8d23283f-1381-4312-a79b-d9bf7b32d79c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "095a539e-74f4-4857-9b44-5d742a35fb2b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a37bbbaa-31b2-4adf-ad9f-9f4725714eb7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3260d8a1-bdb5-470c-832a-20b739e3d135": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "97c86b13-d8f3-49c6-a68f-5028939f1520": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "da956cae-0eaf-4dde-b4da-a0eabf42fbd1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f05ba8b8-ab85-4954-bd3d-e75c1969221f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "35bf7fd6-05c9-4faa-92f1-51657ab7e504": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4fecbe09-60bf-4f13-be8d-a5c9666647a9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f2d1dbe1-d6d7-471f-acee-8b3588b31e88": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d459016f-3e43-4c87-9592-4a30f149796e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2314c7b3-e877-4095-b791-c0af69d3d776": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "aea9ef4e-796b-4a82-b9a3-f2936a730ab5": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "b6058b05-1a51-4763-87f6-f9f2e78b70e3": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "802a012d-1baa-4d00-bf6f-387c0a53d8b4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cae4a396-3eea-4a08-a39a-1270c3ce22e9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9afd2045-b139-4b17-9a54-64c646d93f2f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fb309384-e03d-43f3-ad77-c754347f1b1c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a9d611f8-afb5-418a-81e1-c58fa52a15c9": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "214981e7-8728-4bda-b2d3-19ca38ecbb76": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "be6aafc8-3299-4ed8-8752-41251774e8d3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5d3a0ec8-6eed-408d-8090-c8626539ce91": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "794593fd-e6cb-4525-a5e8-2ef80266adb7": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "282e49a6-5b6e-46cd-8f4d-c5c6612060a1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "939e3438-9e03-4258-9011-c17b9f82fd0d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "197a68c5-7356-4ea2-9249-89c25ec5ad5f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "87e8d680-a942-40f6-a546-5be4d028c1ff": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "deed2964-a516-4a6e-95dc-705e5925f9d6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bded32a0-cb02-4d67-8bc3-2124ee390a85": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "f854b92b-7ca5-49c1-88e2-01eb6f327d63": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "986047fb-6f04-4264-8ff2-8fc1e8d204fe": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ea4239cc-8eef-41f0-9c9d-3c0a5dbb940b": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c341fc98-39d2-43a0-90ba-c33db67f2d54": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b437871a-3598-448e-94e7-4687c4a985b7": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "c7ad2696-099e-4191-894e-3b567c8cf092": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "07c0e0e9-e3d3-4f84-b669-229006a35ba6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bbc0f363-a38a-483a-98b3-6d648cb8f1d4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "7b101f52-5fa5-4a92-b034-87a6f438f495": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a2c5b4db-bc63-4ca1-ac69-74b86a6464d0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d305f8e6-9d22-4e5d-b4df-787b7ea6e4b4": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c93b2ecd-04d7-433d-9ff8-8471efc2ad5d": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "26b861d7-0307-43aa-82ad-998f7eb5d2a1": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "67042fa8-9364-4265-887c-90f2ec36f67d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7d0964e9-1251-4565-bd4e-ba047d4f693f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7928831b-7538-40d2-99a0-3a45cc2bd5b6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9ae99aba-2960-46f4-ac39-6649a509a547": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "60f4af85-879b-41b4-bd3d-cd7611a3e9bf": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f4a4a0d4-f6e5-443f-89d1-f650a5194737": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4b2b5ab1-1e65-40d3-a069-6fe1bc5662ff": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "16fe699c-f284-4ba0-acdd-ffc58f6ee9b1": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c49d9768-7a98-4878-8c10-afaf3186fa11": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "75deb825-2eab-4b3a-8044-d09235ac4fd3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3ca32c32-3c67-44f1-ba1a-4a7039029f4c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "98f884d3-74fb-4995-b1c0-40b8be6f168e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2721d946-7ca9-41e3-8107-2df221e0c900": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "2baf9d3e-8324-4554-8f2f-b0c4028a300e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b309224a-cee8-4a3a-89ea-d81afd1e3b59": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "90e85ee5-b7d0-42aa-bb1f-3d55318c52ac": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2515fcab-3bec-4218-bc08-0a5d5812a4b7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "67b8588d-1fc6-4f00-b8b7-24d845b9022e": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "148d4a88-e07b-45b5-b088-676965ee4d11": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ed2a032c-edd0-4698-a8d7-4d86ff101da4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ecbf66cf-742d-4446-a67e-b433eb4cbfb6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1bf20fba-cf87-4eb3-8ef6-5eb9be3d2e60": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d63e6c21-3ecb-4ef0-b886-94f13648441d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a604ffdb-5c3e-4d54-a76c-3e6c88020d53": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f78c284a-6c10-4509-a924-b4f1f0caf29c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ca5709c2-117c-49dc-9813-9e25b64573f3": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "a9cac344-e066-448e-a609-101ecd5ffbdf": {
+      "scenario": "killchain",
+      "category": "correlated",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "5e254b2c-f049-4516-b282-aa8ba2ba6e4f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "296d87a2-c633-4440-ab64-91244205f5e6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4eea2f5b-9462-4c6b-9b03-ed1ef6bc5a74": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "523dc695-6d9a-4c90-be8f-aa6c1479f680": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fa2f31fd-9573-4655-9085-d965972e811f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d2b1c1fa-6574-4762-8fd5-71a82e0daea4": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c0f53fbd-26b4-46fb-9a69-840e26486df5": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ddff1bad-cb0e-47b1-92c8-e2996e670adc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fcd06e79-f851-485d-8723-c358e8332e07": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b241312e-7683-45cf-9fba-18f12398f09d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8a26aab4-f032-4b3e-b74f-4227f6466865": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d9c6b040-1d88-43e8-9acd-c0cc527c58a7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "911efc32-3188-4f50-9c5f-4f9a4b8b3e9a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "411719c4-6e83-468c-87d0-c481b0028bcc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "86f9a544-2101-4156-87ac-b4cfc869626b": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "839c26a8-252d-402d-b88f-24d39500db15": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5ba901f5-5f7a-4abe-a16a-f8c8a435390e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c88be980-7976-4c96-b8bf-17d450687c33": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c493eb97-15e0-4b82-9206-9f0dd4995a18": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8adea72f-181b-4390-983d-97486a542326": {
+      "scenario": "killchain",
+      "category": "correlated",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "38409665-d81f-43d3-89b9-1fd235e288f6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e1b9a989-b7ca-4c63-a8af-ee38253c4342": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "26e4b35d-6d31-433b-986f-2fb79803a43f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "efc6ae21-9e4f-4903-9bfa-65e568837cfb": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6f6ceb3e-5d48-4f0e-8df0-18577e8b6628": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "130a3b28-ac48-4f5b-b30c-97e5c4309cc4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5f35d207-8ec7-438c-b266-c70471d24422": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "b47c934e-4e27-4ad3-a64a-0b1ec6653fc8": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "977743f2-c996-42bd-8ebf-acd81155b568": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9ff86a16-a60b-4644-b958-69521457b665": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d65cd2dd-d2db-458e-afb8-5339e83487d2": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "1b2f77e8-de94-4003-8393-9c72a5cef25b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "74a9dc67-77a3-4835-8afa-3530816a06e7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "64574dbe-642c-4f51-a4e3-ea8157279ff4": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d2789384-17a4-4c10-9a3a-8630a9525780": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4b492013-bcb8-4a39-ad94-0537b27af701": {
+      "scenario": "killchain",
+      "category": "correlated",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "7756fea3-387c-4a4a-80fd-bbf12caf918c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7e8eb913-457c-4280-8db8-8cdf55650778": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "56142297-f802-4158-bf6a-a1dcd412569f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ed555b33-a1c9-4ed9-b4ef-b901085f9a02": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "600ab01a-033d-4386-9522-7ead8a627f11": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "22a8421f-bd62-41a1-8f15-9c6074f5b41e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e6a5d6ec-f36e-434e-9983-8fb12586eacc": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "38bdf027-7868-47d4-8edf-e1da3a0bab21": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bc97bf1c-f562-48f7-a83e-23386bd86cba": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "300f131b-2363-46aa-a74f-4f3b1ca90493": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3fb51772-adb5-487e-9614-71bdbc19fa80": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "65d7908c-bee2-4427-8bab-35b420835874": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "64fcc860-27c8-4a53-af6d-e5caa5f4a373": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3ae12269-54d7-4e02-bc96-eb8038b6ab4a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c5673b25-38aa-479c-9c79-91a089a1a1fe": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4f4bbf8d-65eb-4352-b5dc-14de912d51e1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "27407cd8-04f9-4e96-958b-2693dd081a09": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "9b945a06-f2be-4a47-aa7d-01572ddc1c93": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bdb74b5a-dbc5-49de-addf-ccfa54f4623d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "adc2c8f4-d94c-4ffc-92cf-be71ed81940f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "48df351e-d361-47dd-9609-ef45146ea56c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e70c51bc-0fa5-4351-b5e4-ae1bf9209669": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "9e57c50e-9966-40df-ad47-02196fffc34f": {
+      "scenario": "killchain",
+      "category": "correlated",
+      "anomaly": true,
+      "priority": "high"
+    },
+    "1a763c4f-6a51-480b-b01e-50a7e301c104": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0b8b49c1-1087-4872-8dd9-c4ede1749c13": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5c438399-36ed-4d97-845a-3c2d537508c2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "54a8ab9f-1d8a-493f-9193-af3b62733133": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "add95c7b-9544-4cdc-aee8-fd260bd49bff": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e8b40eb5-b66a-43f5-8c68-8811963053c6": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "f7ada8cd-1a06-4961-8dd9-cd12540dee2d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "af203682-751d-4d29-aee3-c390b8ce6b28": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b6af3899-6cba-474e-8204-ef2b4129e90b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6d46bcdd-2220-407b-94b1-9d5ea0f20251": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "efd30ec1-b59a-4806-923c-ee18992e0d2a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "48486c2a-5162-42f5-bbdf-4ed8c284abae": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6757c039-2502-480b-8be2-02727f4ba7e7": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "865e2596-a633-47af-ab80-2c21a1bac363": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6a33e4d9-eaa5-413d-85c8-62e1a2e367bd": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0cdbb033-e4bf-4187-b99a-9d94b662dfa9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ed410fb8-ff05-4d69-9047-591ee39cfbab": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "40b53288-a764-4276-9ca9-68d61635a1c0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0af45eda-90b6-4fe9-9be2-299beff89c1c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4614386d-96f7-4a40-9b73-202d33126d7d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b6f8b108-a305-4033-92fe-eb49ec0f17a6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ba4be277-e1b4-4da3-a098-ef40c07875b3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d54c41ae-ed21-46ef-ae80-f7baf1021950": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3a4ab527-b463-4a5f-8417-60457ec48872": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f398bfb3-088c-4964-867e-6e175a4f33f6": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "63f01b81-3f18-494c-8a61-fe78085d4b86": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fed32916-48ed-445e-b748-884cb8e6bcb5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "aecbb916-b622-4ff2-9ff3-e14b16073f2e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "86ea9a3e-a03a-4927-b51a-5307c94b438b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a6ee348d-3da1-416d-902e-9901ca69f35e": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "9c2290eb-3bf9-40f2-b5cd-11291c277f63": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2f0a5d71-7983-4720-9b9f-e1b82876167f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b474b455-a567-432c-872b-5bf4fe3ecd8d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dbe74bca-7317-4ce3-9e20-b6298d918fe6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "799610ff-b658-4fc1-bed9-55d6f04382d2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ef98acdf-19b4-4ec6-a933-2dc21e80c3c6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1f81241f-b79c-4b52-ab51-1d6053b8550e": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "a18d04ed-b2e7-43a8-8e97-5855871fd512": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c5dd904b-cb0a-4b2f-9450-c06f6193c436": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9aee79e6-eb5f-4f10-a53a-97c5ff87f0ff": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "f2d57389-9cc8-4409-aff0-20ef4fdb14ea": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "52d4d784-8d04-44f6-a765-8308ad074955": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "763bd0f9-d91c-49b5-a123-ac3936d3dde1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f8d5bb3c-1889-4549-ad22-1a984c349821": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dd8dee22-d665-4658-a33c-bd6e4b2e88ec": {
+      "scenario": "killchain",
+      "category": "correlated",
+      "anomaly": true,
+      "priority": "critical"
+    },
+    "783309b3-184a-45f9-8054-3d1a4194999e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0acd4ff8-ab91-4496-baa7-2091c5309af3": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "005a9caf-b12a-48f5-aae0-1c1cd1421227": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "fbe1681c-ac83-4adf-810e-f72f82a9be44": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8a530989-3d72-41e6-9710-af0437bda1b8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ddc2c7fe-295c-4767-8f60-b0c832324a01": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7493cc35-44a9-4d99-8aeb-6cbabe445ae4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "09313132-d9c6-4951-8179-ebdaa4df0ebb": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5f8b25da-823c-43bc-9a69-99b958735219": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5332660a-8d5c-4786-a9ce-0731433c2e35": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0f53560a-7900-4810-acdb-5edd73fec559": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "e5dc9ae6-17ca-43b3-bd0d-89fdd8d1b44d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "403ad0d2-932f-49d5-bbaa-2f68469ff7a5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7451de14-ae3d-4532-b264-5c867b0a3527": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f6aca583-6049-4c98-af8f-8e7077d1d649": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "eac17f4b-917b-478e-96b4-18579ba10fad": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "de13add4-9337-409c-be4a-5065902c2b45": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7be98ea7-b1a6-4c15-90d5-56b74aeb417a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "20d75969-1201-4fa3-8ebe-7f6faf4b3d72": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d38addaa-99bb-4e2a-851a-d1ebf78687f3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8df515c2-4e49-4dcb-95f2-3e3a089368fe": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6b8d7e57-29fa-41c0-b91b-73010767cc7a": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "149ca413-f0d1-436d-bc81-ec59daede7c2": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e0c5762a-af00-40f2-813c-5ee726d93666": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "91470a9f-eafe-47ca-9d2b-d8ccde6f2dd4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "60280f4a-3990-49b2-8fa7-fa66d7d59ec2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "81de7968-ef15-4cf6-a686-e8a766de67a4": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "90e9f2e0-97c3-468b-be03-334a0de5c192": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "913532e7-b667-4cf7-92fc-d44c292ebd58": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "9c298a9e-8031-460f-b913-8e2b69807908": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "874cb696-ee82-4d40-bd97-84a65b54fe5f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bacc4ecc-a671-439b-9e78-08f38f8fea6d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "43bedef5-66c6-40a3-b0aa-13809d516350": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "53972315-0355-479e-9f02-94f853a4a756": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "17d5b9db-dc3d-47d3-a828-84128f141412": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5e033aa6-bf0d-46bb-b450-83d597fe2e45": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ea2afc10-e14c-40c1-bca0-a1bc6e99c91f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "13b19c42-a034-4bc8-b948-c65d09e95191": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0e174034-258e-47fd-83c5-6163bb44f87c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "564e85f8-e184-45a0-9880-2c873bab3c58": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9408e453-1844-47ec-8e84-70d3e58e1a3e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1a8e593c-a56c-4c3b-b3ee-2e9249880a52": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "749910cb-4e4d-4716-9e89-ee534d4cc5ea": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "93c574de-a3ef-486d-9ed5-b4a03c3797bb": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "2a32cdb0-5fa0-4a80-9267-44cb45bfd87c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5ff02ef4-76e2-441a-a8d3-d2bd92a22e86": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ac2e0bb9-486e-49d4-939c-3938213a1305": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "94959697-0d83-4bfa-8549-7a748911492f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "3356c8bc-b74b-4627-a29a-07a632d56dbf": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "340f74a0-7c93-4229-8129-4b9f38974356": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "acf97b71-59a4-4119-b79e-29366e930b28": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e74920a6-360c-46b6-b51a-c8ca6b127bf2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9f71d992-6149-46fe-978c-e9787f5ec5e0": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0f44b664-f7d9-4f09-8ffc-17706f19a751": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "1c092f96-e2eb-46ca-aa1e-b86a360ca2a7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2eab07ce-6385-4432-8753-f8d979f16d65": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "34200cbd-e45b-4ce8-8f40-27b201c41217": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "34a35ac2-d8a8-43b5-a87b-2f48b2fe2693": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5826851a-3df7-40bd-aefc-61c100953fd1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c463a830-ec2e-45d9-b39d-b4b87b7a49d7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a4353146-906b-4ab6-a8c9-0c86c88083cf": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "46bd2c5d-0748-435c-986d-8339ecbb482e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a728ce02-a688-4e0a-97a2-7e247b585d89": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6d5c67d8-bbd6-4eb1-8c3d-b648c706369c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2b6172cd-5430-40bd-adee-9895fbed2ebd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ff08769b-e9b1-4859-b896-a2557294d9e8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2b473710-9212-4334-88d6-a12fe3f65a43": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9f5e5203-2733-4b1a-ac54-edd1a90ac160": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b879e88f-2e8e-41b2-8ba0-abe1378ef20e": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "93cd004d-1040-4062-9e46-f5c3d879a8f5": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "f486bff8-e60b-4c27-b08e-c293044d7d8a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "92d54b98-2679-4362-94cb-29813f95e1b6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "73dfb9b2-4a76-4371-8a63-0a242c9baac7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8f44907d-e14e-49d2-a517-1294b27082d4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6cd7bb2c-f5ad-443d-8ad9-6fc597ca9a05": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "eca13d9b-0bce-419c-ba09-f60abc41f3e1": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "8fe568d4-0b92-4789-a1dc-36b8ecd8301f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e9bd400c-b3e4-41d8-ab94-5375203cf794": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "44617b90-2173-4ce2-8ae5-32872f6c8075": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dd68fdd9-9ae0-4c38-b9e2-208a87b4c04a": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0e479ee4-bfc0-42b9-b81d-b5c4f959c5ea": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "676d2370-dacd-42cd-9873-3b52af4e59e3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "260b9e23-4f6e-4328-b21e-0785cbb9c16e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "76a5a8f2-c2c4-4e12-89fd-be5036058b95": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "032907e8-fb4c-4187-87fb-2939f25839e8": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "045948ce-f538-4662-8259-e61c5f52f02f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "46963519-428e-4006-a0f7-60b351f4a2bf": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d0de8b6a-ff55-4fb2-a48e-5f6c532b5c12": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ec041d55-59ac-46c7-9ca6-a16b9c07cb9c": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "49dadc7e-9cf8-4f23-9d87-54005df3a9b5": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "726cd404-19b5-4d2d-8518-ed514eab0000": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a33f8f33-7e9c-47b1-ba04-aeedefdea185": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1cfab92d-30d6-49c3-9455-cbb3c5096ba1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4fbabf4b-3ef6-4176-a2a8-bac799c10abf": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ade7df10-729c-4bb1-818e-5c1a89df205c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0d104c7d-be1f-41cb-86d9-585303776a04": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ac780432-865c-4b05-a51b-af4d6322dad7": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "73886e13-403b-47e0-add1-92d9f3ca6428": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "03af9cea-5362-4c8e-aeb1-f84661ab8d80": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7d57fe7f-997b-43aa-a234-2f8cbc7a5ab5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1926aee5-6112-4556-9af2-b6f0672e13bf": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "155b5927-5d8c-4371-95a1-26aa054b448a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "836e8248-4a28-47cf-a7b0-fc9254061ea2": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "84959fe8-0e3d-4142-9965-f4ca8ca095ef": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6fde3241-8b3e-4380-852b-cfac1b1a4416": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "61b7647d-ceb4-4765-8e30-380a88e45ded": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "27b39667-33e8-4abb-85e5-5b3f73166d95": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c7390bca-f925-4fb0-8c9b-b1a2309a0481": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a5c4494d-3446-45a2-84cf-1086c8fe81dc": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0879baf5-7be5-47c1-9b75-2588c6506a58": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "26c640f4-5f73-4821-b5db-bbc6b9c49e82": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4cbf239e-2f77-49e3-8a21-0f45f699794e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5289292f-2e60-409c-b4ef-e3125e637227": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a1d015e3-ed20-45f2-8448-3ba55be1dfb0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d712de5d-ebe2-4000-b0b6-cf57499c0321": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5aeb92f2-3123-48ce-9c64-cb1f95161941": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4b51b750-7975-4d50-9901-a089a78d15f1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "af40da29-241f-4c6a-a6dc-ed5049cc5a8e": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ddb74bbe-a663-4de7-95e8-2210e1709d9c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "15568613-592e-4226-a097-a640e50bf5b7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a8ebdf33-35c6-4d41-8a27-650e0d167e9f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b54f7510-9540-4461-9b64-7e500cddfb72": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "23af807a-fa5c-4dc1-96bd-a456439fcbbc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "18f9738e-0bd1-423e-96e1-2d98d94ad8f0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "51e67541-7523-4350-a81d-c73d4193d3ef": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "46668538-c0ec-405d-a28f-e500bb5c132f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c52f5115-53ee-46d1-9c6f-30ddd9c38fe5": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "16c72475-8537-4fe8-9281-9aa42affe46d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "00b18e48-f071-4f50-843b-09f6df28dad2": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "386cfb73-6170-42fa-9e88-83bfff90f6c9": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "eef46239-fef0-4e0d-948d-d68855083634": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8039948b-8b92-4177-94d9-7e1ea5d14cfc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a762978a-1a74-42d3-8d8c-710fa74658e9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e1f2b27d-5e75-455c-9700-1e8a7c9a8313": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "32181876-85e6-4b56-8597-bc6a21bdd3b1": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ca6f0e33-598f-4cf4-b4fe-3cd0b763cdc1": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "92002dd0-c2c8-406f-8fec-484d2b6383ba": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "493c73e1-735b-4567-9a83-5bafa7a1387d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "31352899-1b62-4153-b734-11ba138ff5d4": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "903bebb8-04ad-46c4-bf65-f32eda7894da": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "78dc9c8a-47eb-4668-9f18-e65a40def399": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2b4a6344-19dd-4261-8da7-6912528aeae9": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "427f1801-cc0f-4ccd-984b-2ba358940ec2": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "58c914b3-ad6f-4de0-a72f-c11a5cf99b7e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "77206bf0-56f9-40e9-bbce-cdc1f8665258": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cddb7d4a-1475-47b3-b4fb-e5108ad0d77a": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "74f07f10-1909-4574-8d51-df7b401575de": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3cedb6e9-328c-4ec5-ad58-51d47addd61c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "60c11213-8f87-415b-9fa5-b244cff6d833": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "48b1bb88-7513-4d6e-9498-4575df0380f7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8fcc7540-d03d-437b-b3a3-c5015ea0d15f": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "72629264-061d-4d7e-95d1-3b95b906d407": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2cdacf2b-7297-40f3-abbe-a9cef5517bfe": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "494e2f36-e418-44fe-91a7-8b76c6a9365a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "16037071-5164-4ec4-af1f-f2121e09c5c5": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "050baa11-1608-4b04-a58a-0d9b42278d80": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "163445cd-8f56-4838-9b7f-ca58b097edaf": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8e8491f7-b47b-4b00-8852-25fcd504e370": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "61f3fd36-b8a0-4a68-a906-183c58c2311f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dab15497-f446-4477-a8b6-0aa27a9b0313": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "a3b50be3-07df-464d-9ba9-c0dfeab99250": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0d538048-6f75-4104-851c-bc1990dd3c89": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1f8fb3f6-29f7-4dd8-9310-f3fe3f7a6935": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "774afadf-9f43-4503-b8bf-fcbf711824e0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fe1a1445-0b58-4585-9172-d8514ab71486": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ab14f5a4-1764-48db-94b8-d582b88f6736": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3e91161e-13f1-449e-9bd6-fae0d84bf72e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b777d0c6-96e7-486a-a4d4-9d5d2a667d05": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "3f146c9b-4c00-4120-96e7-9b77821bddb4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f2646663-6cd1-4118-86cb-aabfd763883e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "df2694e0-dc11-4cd4-8a08-bddddff0a7da": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ed8628f2-acfd-48b0-bcfd-4b3ac4359604": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d48e36e8-4f76-43d7-8c5d-d6f5ed88ea45": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4022c5a3-38c8-42a3-9342-4e6bcdca040f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a73bcfee-5d41-4a93-bfcb-7b5b55da1282": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3a970af9-216d-4258-9ee1-780670d3d4af": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "0721e566-0068-4aa9-b85b-991c0c0e04b2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "44df2bb7-9317-4c60-a825-1a4d609faea7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b0de7518-e530-4b78-8151-be3b1d712044": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dab8eaf8-acae-4b42-b91a-360525008e4f": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ae052735-ec10-448b-b50b-f09134503e9e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "634e4adb-2ffc-4231-860f-a55765ab21b7": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c084c6af-eca4-4fb8-b1aa-4ab32035b38e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c9890302-7272-4c3b-a5c9-a5c612cc56cc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5abd8d54-8667-4fc1-a0c9-adc0cab67f72": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fa86185c-8b6f-4c7e-b3b8-c382bf3cad1d": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "dbfbdf8b-4aeb-497a-ba21-79cb11aa5356": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a9dac585-2985-4f77-b69d-0c4d64ecca43": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fa60351c-c9b1-4858-a089-b282aa86d07a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "30fba581-e6a4-4b35-bcf3-fdcea8dc9b9b": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4e2e915d-f063-487f-88d8-7799b84952ca": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "7648d8a1-ca65-488e-b32b-325da8fb2c15": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5a35bc79-bba4-4361-89ae-c45c89c74029": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ad9dde0b-8a9d-4ac0-ba21-d53f6b993b2f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7b8f0ff5-b8d0-405a-97fa-1f1f8c92f21a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d883c546-d842-450e-925d-917376de7bc3": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "ec8d4b51-7f43-4575-84b3-e42493e744fb": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a29a1df7-a39f-431e-8aff-3f3507d774d8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cee810ec-c8c0-4ad4-8dff-94152a94e97a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "eb66fe20-0da9-4206-b094-4b00850f12cd": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "38657c3d-419b-4506-8345-eb524c7a1cd5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "cd9d2791-e47d-4fb6-89c3-7d4475e78321": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6466d8eb-0f88-4946-8a2a-d86df9b3dede": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "b294ad51-f4bb-4879-8bfd-c6180972af3d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b81c6bb1-b4f1-4f30-bb56-b6c6b14fcbfe": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "024c6a6a-6184-4451-968c-aee43bf2ffed": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ac6e3303-9d84-48b1-903b-e39156ff45c3": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4fc36da7-7c35-40d3-9cf1-6beae3e6cea6": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b31b399f-1291-425f-a414-0c35ea1e9a62": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c6576df4-21d7-4b36-9ece-363c727b2ce1": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9a6c1d36-2e52-42d5-b183-3ed01ec54e6c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2f448e82-9cc0-4a72-9e57-ecb90c94cdc9": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "6df0c2a7-7cff-4f0a-b5fd-7fce4971896d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8d25f5bc-ffd0-493c-adab-8bf4222a3f93": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f8af7b15-08e8-4aab-8583-9f75ddd74045": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "71ed211f-a232-4a6f-86ed-88bc7ed7506d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9113d78e-075e-4506-a052-ba795f862dd1": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "0f67ab15-7d32-42b2-b72b-ba83b719df41": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5ce313df-6db9-44a0-9414-bbdf45c90e2c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c110614a-5f56-418a-8fef-fa000c9309e3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "e43b64dd-54d9-427f-a379-317f5f4f50a3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "025e0d2a-96d1-4f34-b531-655d7a939d85": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f9921c8b-024f-4c67-9f81-94914c285341": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "4e5d9e49-d237-4150-b6df-f85031a95809": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "768a27cf-f1ae-449a-b765-8b4585def3f6": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "5cd22e22-5393-4149-9d7a-1a64e79d9d6e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6da3afad-e7eb-405e-b938-58f10f245aa7": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "bc38456c-afcc-4e37-bdb5-477200f9c684": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f4826ffa-e075-4d2f-be7e-4d150e6322dc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7db39ad1-269a-4efb-92f9-fa732f4f4b29": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "6710a0c7-0998-4a1a-b884-6c4f73e9e3a5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f041e6fe-ca76-4027-99d6-1a107828a800": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a51109af-f6bd-4afb-9029-821cc19970c3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8559064c-e27f-448e-a9b3-b91e66d03802": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d8a5a94a-32fa-437c-b043-736500ffe400": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b8d2da03-3df6-44e7-9e3e-1e03cb898ed5": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "012ff428-799a-433b-95ba-0fe5b8e95ac3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "65dab621-1c3b-4304-a8ed-482e3be8de51": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "4a7e43b2-2cd3-4c03-8393-b838fb67e250": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "72dd91b3-29dc-4cfa-aa29-4fe0efbab8c2": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "244a98f7-a204-4789-8fb7-af41037eb64c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "93caa9f5-34ce-4d32-bba4-db28f122ac7c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "700f533d-f60c-4f17-82fd-a000be9980c4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "dbfed8b2-d467-486e-9542-e08affda51e2": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "22558101-539f-4c3a-95c0-0b2b793719bd": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7a83383b-c674-478d-afa5-26e5cfe9f846": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "2a12b285-2c06-4fcd-b6b9-77eb2b0778a8": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a6d5df79-021e-4d00-b08b-0f59bb297448": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f19dc3d2-163a-40b4-a730-36ff92cee437": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a3774fb6-380c-4635-857d-36d4ca2bef2a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "471baef6-044a-468d-813d-016bb68726ad": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "e3fd1fea-36e2-4f35-ba88-b618e9484aaf": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ee6b7df6-b091-4b5e-86f6-653591587d23": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c9fbc540-384a-46cf-82f9-6c298848443d": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "55336685-6ead-4efd-9e82-fbcf43d3f424": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1056b033-fb4d-4a22-becc-4b0228212d6b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "6771408e-db75-4d63-8785-c473c72a0a18": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "392abcf1-401c-4ce8-90cd-9fbe2ce632d6": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f1469e57-c06b-427f-b9ab-c6cb7c613b51": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "1a759546-9a37-4577-ba96-3d019b3f23ce": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "831c09e3-804f-43a2-ae03-2e62aaffb1a4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f0fa8d3d-6561-4192-9b34-0beeff7c7a23": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "534ecc48-04f6-4054-9b2d-2f4ac3e9c221": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "2f91160f-3bed-4f2f-9a39-5423d290ca4f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "53e6858b-0fc4-4a60-8322-981dc70e5354": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "84724696-c774-4f73-98c6-9076f0753c1a": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9198172e-cea4-4f6d-af62-c515e924ada0": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ede45bb8-d8e1-452c-abaa-a837aeb5bb0e": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "a9ccb0cc-39c1-42c7-b7d4-bbd59d3f525d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "d291d094-5d1f-4558-b967-092fbc4c8e3b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "67d92779-70ca-4ee3-97b0-9dd04ffee7d7": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "607df889-19fa-4531-9be9-54735cf30335": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "b134434e-7687-4bb2-9dee-ad2060af3454": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "8eab2859-b249-42ea-aff7-eeba0aa91699": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "22d1bc4b-1182-40cf-924a-eb68c062a44f": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "c65361b9-0308-4dd4-833a-19ff06946cbf": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "fed01b98-fb84-4022-964b-146619e99f3c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "5d78bb70-8454-4d69-afc4-b4bc541d0353": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "9f2ea595-ec3c-4643-b230-2769a37a37fd": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "c187f221-a3a6-4859-81d2-f7c03f9fa5a4": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ea6805a9-fee5-45e5-a404-c672fd1d7816": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "684334ca-7acf-4bf5-a868-30332f21d563": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "ef0bbb78-66af-426e-bb83-2f12426b3b6c": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7bcb7cd5-4ee7-42bc-82da-0e240b08664b": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "986dd6aa-e6e8-4d5f-9254-d4765a3882d3": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "7e818650-4f1d-4539-8c2d-85558745f502": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f5217501-5cc4-4b2e-b086-2813ca7c48d5": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "3eb94022-9749-4add-8d62-de19ae614b54": {
+      "scenario": "repeat_svcacct",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "medium"
+    },
+    "451b1974-9f10-4044-b63c-ba4f5bfdac4d": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "45415699-1ce8-4cd5-a80e-8f378c3f0561": {
+      "scenario": "repeat_healthcheck",
+      "category": "repeating",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "f47b01d6-fde5-4b46-9a03-f73a647ae2bc": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    },
+    "768c8562-bb7f-4429-8c1a-b1c9e7c25b5c": {
+      "scenario": "normal",
+      "category": "informational",
+      "anomaly": false,
+      "priority": "low"
+    }
+  },
+  "correlation_groups": {
+    "bruteforce": [
+      "1dba9eee-e259-4a96-885e-8403a9011871",
+      "c8074f96-abea-4de2-9058-242e8497cca1",
+      "6e2c6e5c-ff01-4474-997b-f407ad11f8f7",
+      "72bf7a56-51bd-44a9-9129-3a896410c658",
+      "0d78180a-3508-4205-ae03-f4d07c1c222a",
+      "7d2d3aa7-569f-4ad6-b042-855b7fcd7a2e",
+      "4f49821e-373a-4a4d-8824-fbf8c4fd108c",
+      "eb0be836-d822-4944-9275-147ee9e9e876",
+      "21d5f10d-8dbe-4b7c-8a00-68f4d26e13e4",
+      "939b6f15-8701-49bb-bed2-4ae31672175e",
+      "bd3a0b98-c599-4907-950c-bf54658bcc2d",
+      "570431a7-a610-4411-90ec-ca2f64797a83",
+      "33d2d769-a4e6-432c-b076-2bc154ad3d6e",
+      "87f32116-51d6-40ef-b583-5864e44a4059",
+      "d496ef5a-8070-493a-b06e-09973b59cf56",
+      "17be1b0d-c0d4-4f60-9c17-678592cdf40f",
+      "e4766236-7614-4aff-b01b-ee53c6d54ee9",
+      "3e0f72b5-cf5f-4c00-833b-39b870e53f96",
+      "65cc210b-e2b0-46e9-b28d-0da683dd0035",
+      "18e5a1ed-fce7-4fbf-abae-684369fd202f",
+      "83a95897-be40-467d-812c-189836cecdd2",
+      "6233e35f-a383-440e-b49c-e4e2d2182a3a",
+      "85243695-71fe-4573-9e67-5726cc45a298",
+      "d25b58ff-5885-49e6-94fc-8ec04859d3b3",
+      "c2af8eaf-2507-43ac-9aee-fd8e0467e0bf",
+      "68c6aa85-42fc-4e01-b50c-598986fd13e2",
+      "1055f39a-2fd0-4b49-bdaf-5db65858f09c",
+      "1ba0ca88-63c8-4f5b-9e64-5ae6b0c08eed",
+      "56bc9347-a808-443d-957d-a2bc147e91bb",
+      "d11d580f-4f79-487e-90d6-7b106c9a87b1",
+      "5a6063ad-e21f-4fb1-8dec-7f3d3dcc4fec",
+      "eb52d3f0-9259-4d50-b8a6-9ba9ed623087",
+      "d296e30d-b784-4772-8313-ef3595b4dbb6",
+      "afc342ad-a881-4ad3-b16a-e192a84b6194",
+      "65190237-d8be-42fa-b9d1-0366c9f460e0",
+      "d52bccdc-fd91-4741-bab5-226405c62d56",
+      "1de8fe95-1db2-446f-85b8-e95f660811f6",
+      "a9e46c15-2b64-49ec-a34c-fe8a1c9432af",
+      "fb764048-3ba1-4db5-942a-719a304eb9b3",
+      "cc27c02d-9e69-476f-bb64-08743ebc998c",
+      "cba9e2fc-3fb9-4c62-88ab-29b6bb41efe6",
+      "8dc91666-06a9-4c58-8588-28cbcb32aa71",
+      "f588f45a-2cec-44b7-8f0d-12ec0447660c",
+      "238ab97a-0e61-44da-83eb-16e120be2495",
+      "01869361-db90-42b0-aefd-4c7ee11cb0ce",
+      "310eee17-d210-439a-8edc-8397ba050f4a"
+    ],
+    "killchain": [
+      "a9cac344-e066-448e-a609-101ecd5ffbdf",
+      "8adea72f-181b-4390-983d-97486a542326",
+      "4b492013-bcb8-4a39-ad94-0537b27af701",
+      "9e57c50e-9966-40df-ad47-02196fffc34f",
+      "dd8dee22-d665-4658-a33c-bd6e4b2e88ec"
+    ]
+  },
+  "totals": {
+    "events": 1051,
+    "auth_csv": 337,
+    "ids_json": 341,
+    "host_syslog": 373
+  }
+}

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Runtime app state (regenerated; not source)
+backend/cyber.db
+backend/cyber.db-wal
+backend/cyber.db-shm
+backend/config.json
+
+# Node
+frontend/node_modules/
+
+# NOTE: frontend/dist and backend/data/synthetic/ are intentionally committed —
+# the built UI lets the app run with only Python, and the synthetic set is the
+# required demonstration dataset (ТЗ §10).
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

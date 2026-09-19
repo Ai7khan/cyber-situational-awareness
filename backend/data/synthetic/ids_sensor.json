@@ -1,0 +1,9209 @@
+[
+  {
+    "@timestamp": "2026-09-19T08:00:46+00:00",
+    "event": {
+      "id": "e1a376a7-3b4c-47e3-9131-257245a6cf58",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:02:32+00:00",
+    "event": {
+      "id": "2be6ec9c-a4f2-45d8-9707-5dcdc119c4fb",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:03:07+00:00",
+    "event": {
+      "id": "5d3fa643-61f8-4deb-98b9-83fd9b45d1dc",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:03:48+00:00",
+    "event": {
+      "id": "c8d0a44d-43b9-4498-b67b-e8887fddc7a4",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:04:03+00:00",
+    "event": {
+      "id": "b282c752-7ac5-4654-823f-27429aefd49f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:05:17+00:00",
+    "event": {
+      "id": "a814d8a8-5a06-478e-8a31-0ebd401f5ed2",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:05:33+00:00",
+    "event": {
+      "id": "c0804f48-cc2a-46d9-99dc-72a717ab5e2b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:05:44+00:00",
+    "event": {
+      "id": "b8f951df-92a0-41aa-a08f-d83dce3c3d0c",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:10:27+00:00",
+    "event": {
+      "id": "9347fbcd-5d8c-45c9-b81a-286af0be538b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:10:59+00:00",
+    "event": {
+      "id": "6550d057-3890-4bb3-a0bc-df9ae027268b",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:11:50+00:00",
+    "event": {
+      "id": "efe9dd73-a76a-47f9-8684-f29160da87cc",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:12:04+00:00",
+    "event": {
+      "id": "91bc44f8-7fcf-4ea0-b227-35fd7a93830a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:12:06+00:00",
+    "event": {
+      "id": "21033576-a6a6-4669-8251-3ab28eda987b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:12:37+00:00",
+    "event": {
+      "id": "84a9739f-4fde-4c66-9b78-f4a1ece7e204",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:13:58+00:00",
+    "event": {
+      "id": "7341d49a-473e-4fb6-8503-6815bf8ee2e6",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:14:53+00:00",
+    "event": {
+      "id": "75681205-35da-45b9-a4f7-a1684436e222",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:15:32+00:00",
+    "event": {
+      "id": "c45490df-1a67-42a2-ae9a-59c20bbef995",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:15:45+00:00",
+    "event": {
+      "id": "f4648daa-8efc-478e-aac1-50d045d5c30a",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:16:32+00:00",
+    "event": {
+      "id": "86f4b512-b387-4b98-babb-c75ecf172071",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:17:00+00:00",
+    "event": {
+      "id": "b3dd2e5a-7059-4ce4-ae5e-7ee39eea080e",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:17:21+00:00",
+    "event": {
+      "id": "6f828f2f-bbc9-48aa-9e3f-9963434a0458",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:17:24+00:00",
+    "event": {
+      "id": "f09d8670-57c1-4b44-84d8-6c20ace07465",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:17:59+00:00",
+    "event": {
+      "id": "1d120a63-44ce-4769-b698-f4cfc5239db0",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:19:20+00:00",
+    "event": {
+      "id": "8330e175-b483-4d83-9332-57ad10fc70f4",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:19:29+00:00",
+    "event": {
+      "id": "906980e1-ce52-4696-9d77-accd2b8a2f25",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:20:00+00:00",
+    "event": {
+      "id": "317f4fa8-3f00-491d-bd4e-814a4858d852",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:20:25+00:00",
+    "event": {
+      "id": "56e3eb76-ae0e-4e46-a439-a416ece6ac6c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:20:29+00:00",
+    "event": {
+      "id": "381d67f4-617b-47fb-a5ae-afeb71283d41",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:21:28+00:00",
+    "event": {
+      "id": "9b819d32-743d-410b-9de3-9f51b9793030",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:22:03+00:00",
+    "event": {
+      "id": "273be44f-4909-4a70-9335-a6cf8d0dfa1f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:22:15+00:00",
+    "event": {
+      "id": "2c41ac6c-5791-4346-bb80-e9ab3cc8d68e",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:22:54+00:00",
+    "event": {
+      "id": "b11705d6-7bd2-4e9f-a6ed-062650d8fbc1",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:26:24+00:00",
+    "event": {
+      "id": "b30de04c-7d17-4096-94ff-8f143c9b1fde",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:26:32+00:00",
+    "event": {
+      "id": "79b41bc9-0a57-49c0-ba8a-2d0f05cbb1f1",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:27:49+00:00",
+    "event": {
+      "id": "8e74913b-4daf-49dd-88fb-a0568914bba7",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:29:07+00:00",
+    "event": {
+      "id": "cf0e49b1-2a9f-4814-8951-cc5ab2632a9b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:29:31+00:00",
+    "event": {
+      "id": "1eaab30c-7969-458d-9af2-0afea92a5327",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:29:31+00:00",
+    "event": {
+      "id": "7d1daafe-abd3-46dd-914c-e3ce5655d518",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:31:14+00:00",
+    "event": {
+      "id": "23001aaf-c9b3-4c75-a657-867f658f8e15",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:31:34+00:00",
+    "event": {
+      "id": "63402599-d816-4a0c-9487-3445511825d7",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:32:04+00:00",
+    "event": {
+      "id": "5702b032-fd57-48f0-8935-9ee33f7003b8",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:32:09+00:00",
+    "event": {
+      "id": "ba19f216-c417-4de0-8af0-2dfa3f676311",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:33:02+00:00",
+    "event": {
+      "id": "8f0e5d3d-74ea-4620-9b9b-5c3e552cecc2",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:34:27+00:00",
+    "event": {
+      "id": "cbb2bbc8-5811-487b-83a0-af38f48e1839",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:35:44+00:00",
+    "event": {
+      "id": "8e68f7dc-916f-41a3-9977-c027c035fd18",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:35:47+00:00",
+    "event": {
+      "id": "5d8f4f91-828f-436b-8cab-016053243760",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:36:28+00:00",
+    "event": {
+      "id": "703de4ba-777f-4c31-8c7b-08533dbcdb46",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:37:46+00:00",
+    "event": {
+      "id": "50eee93b-8376-4297-b483-14b847088d4f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:38:07+00:00",
+    "event": {
+      "id": "b9ba942b-2d8f-4d21-b357-a5d41e1cb174",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:38:23+00:00",
+    "event": {
+      "id": "8f2a053a-fa32-4ce8-953c-bc156fca7b65",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:40:17+00:00",
+    "event": {
+      "id": "0551c672-f708-4488-8053-0b89d6fa4fb9",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:41:32+00:00",
+    "event": {
+      "id": "c4b23320-79ea-45d6-943e-0d68c7d2aeb8",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:41:36+00:00",
+    "event": {
+      "id": "0c7ab89d-0e64-48e5-94ed-0c247f68e258",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:42:26+00:00",
+    "event": {
+      "id": "4316bcfa-fc90-49e2-acfc-69965808632e",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:42:59+00:00",
+    "event": {
+      "id": "ca5f7ead-57df-46e7-8153-320e04c70bdf",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:43:36+00:00",
+    "event": {
+      "id": "64b85d31-722d-4107-8fa5-18608785f3d6",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:44:22+00:00",
+    "event": {
+      "id": "b433b560-b3fc-4411-ba4a-03e7ec610156",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:45:05+00:00",
+    "event": {
+      "id": "03d7f919-bac3-4088-9eae-91c75edc6790",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:45:49+00:00",
+    "event": {
+      "id": "dc71ec86-af90-41ae-ac1b-667a7d0ff8ce",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:46:33+00:00",
+    "event": {
+      "id": "c29bcbbc-3f09-4569-9ffa-e7591eee9038",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:48:05+00:00",
+    "event": {
+      "id": "30799502-5677-4579-89cd-66a45c239ac4",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:49:15+00:00",
+    "event": {
+      "id": "736ed2ea-96a6-47a8-be86-bb8e91581405",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:49:39+00:00",
+    "event": {
+      "id": "72ca3466-2bd0-4948-b04a-226f5d053795",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:50:06+00:00",
+    "event": {
+      "id": "7d6c87c7-62cc-46ca-bde3-cbf71f6d528c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:50:48+00:00",
+    "event": {
+      "id": "45810258-2c94-47a3-9d9d-956abe63daef",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:55:12+00:00",
+    "event": {
+      "id": "bdaf4a1a-02de-4794-8753-a394575589b7",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:55:42+00:00",
+    "event": {
+      "id": "d38c896a-5465-40fa-86d4-c4547302ed9d",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:56:34+00:00",
+    "event": {
+      "id": "ab3758c6-2f6b-44cf-b1d6-992878406c83",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:57:37+00:00",
+    "event": {
+      "id": "a22c9552-6ce6-4514-aef0-a116f98f532d",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:58:03+00:00",
+    "event": {
+      "id": "acd8966a-0f04-4322-a7f6-6bc4b9f96998",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:58:21+00:00",
+    "event": {
+      "id": "1b597844-0168-47e7-82d7-14427f579255",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T08:59:19+00:00",
+    "event": {
+      "id": "ae3c5610-fe42-4a47-b770-d021aab09d8f",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T08:59:30+00:00",
+    "event": {
+      "id": "e53f4a66-8a3a-4b11-ad77-33f266e7b53a",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:01:23+00:00",
+    "event": {
+      "id": "7b60c150-987e-45ad-8cec-761bea3fe474",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:02:23+00:00",
+    "event": {
+      "id": "1262f1a7-5a63-437e-9589-15245d85f5d8",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:03:24+00:00",
+    "event": {
+      "id": "db8f9459-e2f4-4c3f-a712-d8120ca79810",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:05:12+00:00",
+    "event": {
+      "id": "eedeca5d-acaa-4a85-8ad6-b3d82c001c8c",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:05:50+00:00",
+    "event": {
+      "id": "b63bef4b-bc4b-4a26-a1f0-7082f8f8e8cb",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:06:26+00:00",
+    "event": {
+      "id": "9e616aab-7760-46b4-864a-d02d3cabbdea",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:06:33+00:00",
+    "event": {
+      "id": "3d22b96a-fcfd-44d9-8497-36e74a596dbe",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:06:42+00:00",
+    "event": {
+      "id": "ace61783-1fb4-4782-9356-bcd62abf989a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:07:13+00:00",
+    "event": {
+      "id": "47e376cf-d5a2-4ad6-92f5-a635cd42429d",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:07:39+00:00",
+    "event": {
+      "id": "e5abeeed-cbc3-422b-8886-77de66a074fa",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:08:55+00:00",
+    "event": {
+      "id": "37826c30-6c01-4155-9b7d-50a5d636ba81",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:09:36+00:00",
+    "event": {
+      "id": "76141fcd-6d89-4f4a-9b43-590fa9a87657",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:09:43+00:00",
+    "event": {
+      "id": "13592625-0bbe-40c8-9a19-516cc026dc76",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:11:12+00:00",
+    "event": {
+      "id": "b6cc6a68-ad5b-4af4-8912-cafc8adfb558",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:11:44+00:00",
+    "event": {
+      "id": "3239038c-c2ed-4f59-bd6c-5fd01ad86099",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:12:55+00:00",
+    "event": {
+      "id": "218c499f-f611-43b9-89f0-8e21fe6b41c9",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:13:17+00:00",
+    "event": {
+      "id": "0997ed67-7010-46f8-b323-b81c22417e3c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:13:58+00:00",
+    "event": {
+      "id": "74db464d-5c6c-40fd-b59b-ce0b69fd6e87",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:14:31+00:00",
+    "event": {
+      "id": "c975c68c-23cf-4bfd-af65-d8cd8f9699b0",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:15:26+00:00",
+    "event": {
+      "id": "084fa35d-1def-4da2-a95e-3a7bf541088b",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:15:54+00:00",
+    "event": {
+      "id": "775e1863-33ca-4aea-aed7-b1467a82b45f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:16:49+00:00",
+    "event": {
+      "id": "be6f2890-09f5-44ad-a214-bd10c6cc3c92",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:17:14+00:00",
+    "event": {
+      "id": "d020996c-d1b8-4f04-b0c5-0febcf0e7f4b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:17:42+00:00",
+    "event": {
+      "id": "0d13b21c-8b50-4a49-afb6-ccfe4b20e397",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:18:07+00:00",
+    "event": {
+      "id": "7f6152e4-3232-4ec5-b3c8-1722c8309dcd",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:18:23+00:00",
+    "event": {
+      "id": "2eebd60a-cd00-4572-b884-918c39b4a00d",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:18:32+00:00",
+    "event": {
+      "id": "403b8c2b-7c6c-49fa-a679-4c62ec6fa4ab",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:19:02+00:00",
+    "event": {
+      "id": "28bb9c9f-2b9d-4227-9010-f04d76056e14",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:20:08+00:00",
+    "event": {
+      "id": "e4d20c97-7162-49f8-bd0f-b22f9f8bcd84",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:20:33+00:00",
+    "event": {
+      "id": "74aad7bf-528c-43e7-a8b7-53ff50ea54cd",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:21:28+00:00",
+    "event": {
+      "id": "ba6b8325-f6cd-4fc3-9adb-34aef07c4cd3",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:21:41+00:00",
+    "event": {
+      "id": "276cceee-8126-47ff-b674-aedb143723e5",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:22:31+00:00",
+    "event": {
+      "id": "f75b7214-5e4a-454f-82f4-e2009143c7d6",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:22:58+00:00",
+    "event": {
+      "id": "2bb16a8e-bc7d-4141-949e-8c32413eaf89",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:23:23+00:00",
+    "event": {
+      "id": "8f696f2f-a1bf-4725-9d06-aca978c9cb9a",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:24:27+00:00",
+    "event": {
+      "id": "4d9a51d9-bdc7-457c-a054-94a33509115e",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:24:27+00:00",
+    "event": {
+      "id": "24ff935b-c9b1-4edb-959f-f8f17e22017b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:25:50+00:00",
+    "event": {
+      "id": "c41674c4-6cea-4f28-9c00-4a674b2a94ab",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:27:04+00:00",
+    "event": {
+      "id": "26e98c0f-b8ae-44f1-944b-6c6ca30836b5",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:27:08+00:00",
+    "event": {
+      "id": "fcfbbf9a-2ae0-48b9-8437-50b2810fa09c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:27:42+00:00",
+    "event": {
+      "id": "813da327-def6-4f75-8025-992b7367ea14",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:28:00+00:00",
+    "event": {
+      "id": "855b2010-e1b6-477b-8d12-4f4410ed53c7",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:29:32+00:00",
+    "event": {
+      "id": "c4189fce-5678-41ea-ae8b-1f3364b5f56e",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:30:00+00:00",
+    "event": {
+      "id": "c227185e-7eb1-4694-b3a1-f90d2fbd6c0c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:30:09+00:00",
+    "event": {
+      "id": "506eb0f4-56aa-498a-b1dd-4b18e0414c27",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:30:27+00:00",
+    "event": {
+      "id": "6c59ab00-1e01-4b70-92c3-14159de34298",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:30:38+00:00",
+    "event": {
+      "id": "e70b72e7-8bbc-4ed8-8c32-d52c081f6974",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:31:42+00:00",
+    "event": {
+      "id": "9b9ba78b-8a05-4ce5-9e14-04068459319a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:31:47+00:00",
+    "event": {
+      "id": "e8341754-6ce2-458f-a2d5-1ffbb8ea6443",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:31:51+00:00",
+    "event": {
+      "id": "92969ed1-a4be-4768-b02b-70ad7f85df79",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:32:56+00:00",
+    "event": {
+      "id": "c45441f5-a1f4-42e2-bc70-dd7c5b29d587",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:34:15+00:00",
+    "event": {
+      "id": "4b9fecc6-242a-4224-90cd-241359f48400",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:35:53+00:00",
+    "event": {
+      "id": "9b93982d-e572-4958-9ecb-5484c266fbc1",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:36:20+00:00",
+    "event": {
+      "id": "ea93d45f-180f-406b-9e00-8f4dc6e66858",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:37:53+00:00",
+    "event": {
+      "id": "50fdd332-d11c-4547-ac1a-f3908f074c69",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:38:47+00:00",
+    "event": {
+      "id": "4ae1f52e-5971-4990-9bd4-f119affb9457",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:38:53+00:00",
+    "event": {
+      "id": "300c397f-1f35-4f11-8e70-7ef415b34191",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:39:00+00:00",
+    "event": {
+      "id": "31bc5da9-47ab-47be-8d20-9085c1790c5a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:39:28+00:00",
+    "event": {
+      "id": "7e16a106-6957-4e62-9fc6-2c62e9d660b4",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:39:50+00:00",
+    "event": {
+      "id": "96350f96-e164-42ef-9d44-bb939e011c84",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:40:38+00:00",
+    "event": {
+      "id": "a450c0f1-d1a1-4e69-a142-2c42e04e22e8",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:41:05+00:00",
+    "event": {
+      "id": "35fe2991-ed36-43ed-91ad-91c4fefbef84",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:42:51+00:00",
+    "event": {
+      "id": "c9a2429f-0bee-4a73-b510-2126254892fb",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:43:29+00:00",
+    "event": {
+      "id": "87afe769-e5d5-4db6-b378-0756bb13f26e",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:43:36+00:00",
+    "event": {
+      "id": "b12cf304-103c-4780-954f-6051bf73ec9b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:43:52+00:00",
+    "event": {
+      "id": "7575a819-b31f-4178-b438-6c619979b2c8",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:45:29+00:00",
+    "event": {
+      "id": "fa773367-ad7e-4567-8016-dc806a0d6105",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:45:33+00:00",
+    "event": {
+      "id": "c9b3aeb2-2d0c-4516-a0b2-a881eef84207",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:46:07+00:00",
+    "event": {
+      "id": "e3ae91cc-490f-4d6e-866d-fd02399609b1",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:48:04+00:00",
+    "event": {
+      "id": "7f5a00ba-161c-4654-83a2-6716e2ace542",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:49:13+00:00",
+    "event": {
+      "id": "16623f85-3fd0-49c6-ac15-fbb4feea0a11",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:50:26+00:00",
+    "event": {
+      "id": "05751d23-c4cf-47cd-81bb-2ec854e7fb5b",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:50:53+00:00",
+    "event": {
+      "id": "299c9155-cd39-4e05-a0df-152a14ea63d3",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:50:58+00:00",
+    "event": {
+      "id": "cd322c23-375b-4ca4-a4f5-0de9c36864f7",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:51:06+00:00",
+    "event": {
+      "id": "bc5de384-0ea7-4b8f-9419-d37b8b326cc0",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:51:33+00:00",
+    "event": {
+      "id": "b383b608-fa85-4a43-8b56-a8b38d5336a5",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:52:51+00:00",
+    "event": {
+      "id": "788c51f7-7514-4a47-93f5-70828cf08404",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:53:05+00:00",
+    "event": {
+      "id": "798b9ec4-370e-464c-86f5-b1dff9fc5d2c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:53:35+00:00",
+    "event": {
+      "id": "041e8681-ee24-42d7-8656-81ae09d2653f",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:54:10+00:00",
+    "event": {
+      "id": "c00af801-69cf-46bb-9b2d-cd97f11d82cd",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:55:16+00:00",
+    "event": {
+      "id": "30e3ae32-9f93-4a96-991c-d2b6c82bc1ff",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:55:24+00:00",
+    "event": {
+      "id": "60d9580b-caff-4e86-a547-5e809ff12f61",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:55:30+00:00",
+    "event": {
+      "id": "b4dce4f8-5847-457d-982d-7cab3fc69bac",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T09:55:39+00:00",
+    "event": {
+      "id": "1768cc89-06ed-4d30-8581-e05a67a61778",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:55:48+00:00",
+    "event": {
+      "id": "bcdaeb33-3841-4d90-b4c8-69816b2e0642",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T09:56:47+00:00",
+    "event": {
+      "id": "0b0d81a1-4efa-48b8-9296-cd1b506e5003",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:00:16+00:00",
+    "event": {
+      "id": "6cebae48-15a2-4b44-9688-b4f699a2af72",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:00:25+00:00",
+    "event": {
+      "id": "50961f54-2a31-4e4e-8096-f5866d7cd6b6",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:00:47+00:00",
+    "event": {
+      "id": "7df68a10-5fa6-4739-9afa-6fafd8c9d5f7",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:01:13+00:00",
+    "event": {
+      "id": "1f7cd1e4-80d3-4439-b3a7-8d97160bb55e",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:01:54+00:00",
+    "event": {
+      "id": "29d8821d-7914-479d-9fe7-5011bfddc450",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:02:34+00:00",
+    "event": {
+      "id": "134c3647-c382-4774-b360-ddac1fd105b1",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:02:46+00:00",
+    "event": {
+      "id": "aaefb6e9-05c2-415b-9baa-6f961b0faf7d",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:02:52+00:00",
+    "event": {
+      "id": "53aadc5b-4c69-4344-9ac1-769e924bd9dd",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:03:52+00:00",
+    "event": {
+      "id": "938abe2d-4929-48b2-a594-99ed726900c4",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:04:09+00:00",
+    "event": {
+      "id": "089b1ea1-85eb-49d8-b202-4b84ff08af9c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:05:27+00:00",
+    "event": {
+      "id": "c6d501b0-d122-42c7-9e6c-91ed9f215019",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:05:46+00:00",
+    "event": {
+      "id": "b0d9d41d-d10a-4f85-9a18-be9b7e6dc682",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:07:28+00:00",
+    "event": {
+      "id": "791906c2-1bbf-421c-a2d0-f9fc5aea899f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:07:48+00:00",
+    "event": {
+      "id": "7065d543-c1cd-40d6-a608-fb3a5c48332a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:08:20+00:00",
+    "event": {
+      "id": "851bf536-c138-4f08-9acb-1a9bca2216ef",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:08:28+00:00",
+    "event": {
+      "id": "b4820732-1154-4563-9dab-1e8e3c496491",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:08:30+00:00",
+    "event": {
+      "id": "1b3db8fd-af38-494a-9218-9379d6354a0e",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:08:34+00:00",
+    "event": {
+      "id": "67ea613a-59dd-4a04-a7e5-dd7ae8ae3d14",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:09:16+00:00",
+    "event": {
+      "id": "2f43f02b-506e-47e6-8470-a255fd71a023",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:09:35+00:00",
+    "event": {
+      "id": "8d2c23b8-d700-47bd-b49c-05cc3c8d1db9",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:10:37+00:00",
+    "event": {
+      "id": "095a539e-74f4-4857-9b44-5d742a35fb2b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:10:42+00:00",
+    "event": {
+      "id": "a37bbbaa-31b2-4adf-ad9f-9f4725714eb7",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:11:01+00:00",
+    "event": {
+      "id": "da956cae-0eaf-4dde-b4da-a0eabf42fbd1",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:13:45+00:00",
+    "event": {
+      "id": "2314c7b3-e877-4095-b791-c0af69d3d776",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:14:55+00:00",
+    "event": {
+      "id": "9afd2045-b139-4b17-9a54-64c646d93f2f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:16:41+00:00",
+    "event": {
+      "id": "be6aafc8-3299-4ed8-8752-41251774e8d3",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:17:14+00:00",
+    "event": {
+      "id": "939e3438-9e03-4258-9011-c17b9f82fd0d",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:17:19+00:00",
+    "event": {
+      "id": "197a68c5-7356-4ea2-9249-89c25ec5ad5f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:18:09+00:00",
+    "event": {
+      "id": "deed2964-a516-4a6e-95dc-705e5925f9d6",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:18:37+00:00",
+    "event": {
+      "id": "986047fb-6f04-4264-8ff2-8fc1e8d204fe",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:19:23+00:00",
+    "event": {
+      "id": "c341fc98-39d2-43a0-90ba-c33db67f2d54",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:21:26+00:00",
+    "event": {
+      "id": "7b101f52-5fa5-4a92-b034-87a6f438f495",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:23:10+00:00",
+    "event": {
+      "id": "67042fa8-9364-4265-887c-90f2ec36f67d",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:24:57+00:00",
+    "event": {
+      "id": "f4a4a0d4-f6e5-443f-89d1-f650a5194737",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:25:02+00:00",
+    "event": {
+      "id": "75deb825-2eab-4b3a-8044-d09235ac4fd3",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:25:25+00:00",
+    "event": {
+      "id": "3ca32c32-3c67-44f1-ba1a-4a7039029f4c",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:25:28+00:00",
+    "event": {
+      "id": "98f884d3-74fb-4995-b1c0-40b8be6f168e",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:27:04+00:00",
+    "event": {
+      "id": "2515fcab-3bec-4218-bc08-0a5d5812a4b7",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:27:27+00:00",
+    "event": {
+      "id": "148d4a88-e07b-45b5-b088-676965ee4d11",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:27:30+00:00",
+    "event": {
+      "id": "ed2a032c-edd0-4698-a8d7-4d86ff101da4",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:28:02+00:00",
+    "event": {
+      "id": "1bf20fba-cf87-4eb3-8ef6-5eb9be3d2e60",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:28:10+00:00",
+    "event": {
+      "id": "a604ffdb-5c3e-4d54-a76c-3e6c88020d53",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:28:34+00:00",
+    "event": {
+      "id": "f78c284a-6c10-4509-a924-b4f1f0caf29c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:28:48+00:00",
+    "event": {
+      "id": "a9cac344-e066-448e-a609-101ecd5ffbdf",
+      "type": "port_scan",
+      "action": "recon",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "45.83.140.77"
+    },
+    "destination": {
+      "ip": "10.0.10.11",
+      "port": null
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": "recon"
+    },
+    "severity_num": 30,
+    "message": "SYN scan across 1000 ports"
+  },
+  {
+    "@timestamp": "2026-09-19T10:28:57+00:00",
+    "event": {
+      "id": "296d87a2-c633-4440-ab64-91244205f5e6",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:29:10+00:00",
+    "event": {
+      "id": "523dc695-6d9a-4c90-be8f-aa6c1479f680",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:29:44+00:00",
+    "event": {
+      "id": "fa2f31fd-9573-4655-9085-d965972e811f",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:30:17+00:00",
+    "event": {
+      "id": "fcd06e79-f851-485d-8723-c358e8332e07",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:30:44+00:00",
+    "event": {
+      "id": "8a26aab4-f032-4b3e-b74f-4227f6466865",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:32:23+00:00",
+    "event": {
+      "id": "c493eb97-15e0-4b82-9206-9f0dd4995a18",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:32:48+00:00",
+    "event": {
+      "id": "8adea72f-181b-4390-983d-97486a542326",
+      "type": "web_attack",
+      "action": "exploitation",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "45.83.140.77"
+    },
+    "destination": {
+      "ip": "10.0.10.11",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": "exploitation"
+    },
+    "severity_num": 60,
+    "message": "SQL injection attempt on /login"
+  },
+  {
+    "@timestamp": "2026-09-19T10:34:06+00:00",
+    "event": {
+      "id": "130a3b28-ac48-4f5b-b30c-97e5c4309cc4",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:35:24+00:00",
+    "event": {
+      "id": "977743f2-c996-42bd-8ebf-acd81155b568",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:36:16+00:00",
+    "event": {
+      "id": "1b2f77e8-de94-4003-8393-9c72a5cef25b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:36:57+00:00",
+    "event": {
+      "id": "74a9dc67-77a3-4835-8afa-3530816a06e7",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:37:20+00:00",
+    "event": {
+      "id": "d2789384-17a4-4c10-9a3a-8630a9525780",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:37:28+00:00",
+    "event": {
+      "id": "4b492013-bcb8-4a39-ad94-0537b27af701",
+      "type": "malware_detected",
+      "action": "installation",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "45.83.140.77"
+    },
+    "destination": {
+      "ip": "10.0.10.11",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": "installation"
+    },
+    "severity_num": 72,
+    "message": "Webshell dropped: cmd.aspx"
+  },
+  {
+    "@timestamp": "2026-09-19T10:37:44+00:00",
+    "event": {
+      "id": "7e8eb913-457c-4280-8db8-8cdf55650778",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:39:22+00:00",
+    "event": {
+      "id": "38bdf027-7868-47d4-8edf-e1da3a0bab21",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:39:31+00:00",
+    "event": {
+      "id": "bc97bf1c-f562-48f7-a83e-23386bd86cba",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:40:22+00:00",
+    "event": {
+      "id": "3fb51772-adb5-487e-9614-71bdbc19fa80",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:41:03+00:00",
+    "event": {
+      "id": "3ae12269-54d7-4e02-bc96-eb8038b6ab4a",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:43:33+00:00",
+    "event": {
+      "id": "48df351e-d361-47dd-9609-ef45146ea56c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:45:19+00:00",
+    "event": {
+      "id": "f7ada8cd-1a06-4961-8dd9-cd12540dee2d",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:45:24+00:00",
+    "event": {
+      "id": "af203682-751d-4d29-aee3-c390b8ce6b28",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:45:39+00:00",
+    "event": {
+      "id": "b6af3899-6cba-474e-8204-ef2b4129e90b",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:46:35+00:00",
+    "event": {
+      "id": "48486c2a-5162-42f5-bbdf-4ed8c284abae",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:47:24+00:00",
+    "event": {
+      "id": "40b53288-a764-4276-9ca9-68d61635a1c0",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:47:56+00:00",
+    "event": {
+      "id": "4614386d-96f7-4a40-9b73-202d33126d7d",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:48:06+00:00",
+    "event": {
+      "id": "d54c41ae-ed21-46ef-ae80-f7baf1021950",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:48:07+00:00",
+    "event": {
+      "id": "3a4ab527-b463-4a5f-8417-60457ec48872",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:49:05+00:00",
+    "event": {
+      "id": "fed32916-48ed-445e-b748-884cb8e6bcb5",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:49:28+00:00",
+    "event": {
+      "id": "86ea9a3e-a03a-4927-b51a-5307c94b438b",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:49:55+00:00",
+    "event": {
+      "id": "9c2290eb-3bf9-40f2-b5cd-11291c277f63",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:50:11+00:00",
+    "event": {
+      "id": "b474b455-a567-432c-872b-5bf4fe3ecd8d",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:50:31+00:00",
+    "event": {
+      "id": "dbe74bca-7317-4ce3-9e20-b6298d918fe6",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:50:40+00:00",
+    "event": {
+      "id": "799610ff-b658-4fc1-bed9-55d6f04382d2",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:53:34+00:00",
+    "event": {
+      "id": "f8d5bb3c-1889-4549-ad22-1a984c349821",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:53:48+00:00",
+    "event": {
+      "id": "dd8dee22-d665-4658-a33c-bd6e4b2e88ec",
+      "type": "data_exfil",
+      "action": "exfiltration",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "45.83.140.77"
+    },
+    "destination": {
+      "ip": "10.0.10.21",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": "exfiltration"
+    },
+    "severity_num": 82,
+    "message": "1.2GB POST to external host"
+  },
+  {
+    "@timestamp": "2026-09-19T10:54:42+00:00",
+    "event": {
+      "id": "7493cc35-44a9-4d99-8aeb-6cbabe445ae4",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:57:27+00:00",
+    "event": {
+      "id": "de13add4-9337-409c-be4a-5065902c2b45",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:58:07+00:00",
+    "event": {
+      "id": "d38addaa-99bb-4e2a-851a-d1ebf78687f3",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T10:59:19+00:00",
+    "event": {
+      "id": "e0c5762a-af00-40f2-813c-5ee726d93666",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T10:59:29+00:00",
+    "event": {
+      "id": "91470a9f-eafe-47ca-9d2b-d8ccde6f2dd4",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:00:12+00:00",
+    "event": {
+      "id": "90e9f2e0-97c3-468b-be03-334a0de5c192",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:00:45+00:00",
+    "event": {
+      "id": "874cb696-ee82-4d40-bd97-84a65b54fe5f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:01:18+00:00",
+    "event": {
+      "id": "17d5b9db-dc3d-47d3-a828-84128f141412",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:01:25+00:00",
+    "event": {
+      "id": "5e033aa6-bf0d-46bb-b450-83d597fe2e45",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:02:21+00:00",
+    "event": {
+      "id": "0e174034-258e-47fd-83c5-6163bb44f87c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:03:04+00:00",
+    "event": {
+      "id": "749910cb-4e4d-4716-9e89-ee534d4cc5ea",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:03:52+00:00",
+    "event": {
+      "id": "2a32cdb0-5fa0-4a80-9267-44cb45bfd87c",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:04:09+00:00",
+    "event": {
+      "id": "ac2e0bb9-486e-49d4-939c-3938213a1305",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:05:16+00:00",
+    "event": {
+      "id": "340f74a0-7c93-4229-8129-4b9f38974356",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:05:45+00:00",
+    "event": {
+      "id": "acf97b71-59a4-4119-b79e-29366e930b28",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:06:32+00:00",
+    "event": {
+      "id": "1c092f96-e2eb-46ca-aa1e-b86a360ca2a7",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:07:14+00:00",
+    "event": {
+      "id": "34a35ac2-d8a8-43b5-a87b-2f48b2fe2693",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:07:42+00:00",
+    "event": {
+      "id": "c463a830-ec2e-45d9-b39d-b4b87b7a49d7",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:08:21+00:00",
+    "event": {
+      "id": "a728ce02-a688-4e0a-97a2-7e247b585d89",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:08:29+00:00",
+    "event": {
+      "id": "2b6172cd-5430-40bd-adee-9895fbed2ebd",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:08:34+00:00",
+    "event": {
+      "id": "2b473710-9212-4334-88d6-a12fe3f65a43",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:08:58+00:00",
+    "event": {
+      "id": "9f5e5203-2733-4b1a-ac54-edd1a90ac160",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:09:25+00:00",
+    "event": {
+      "id": "f486bff8-e60b-4c27-b08e-c293044d7d8a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:10:09+00:00",
+    "event": {
+      "id": "73dfb9b2-4a76-4371-8a63-0a242c9baac7",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:10:43+00:00",
+    "event": {
+      "id": "6cd7bb2c-f5ad-443d-8ad9-6fc597ca9a05",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:12:37+00:00",
+    "event": {
+      "id": "260b9e23-4f6e-4328-b21e-0785cbb9c16e",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:13:17+00:00",
+    "event": {
+      "id": "045948ce-f538-4662-8259-e61c5f52f02f",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:13:20+00:00",
+    "event": {
+      "id": "46963519-428e-4006-a0f7-60b351f4a2bf",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:14:22+00:00",
+    "event": {
+      "id": "726cd404-19b5-4d2d-8518-ed514eab0000",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:15:34+00:00",
+    "event": {
+      "id": "ade7df10-729c-4bb1-818e-5c1a89df205c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:15:57+00:00",
+    "event": {
+      "id": "0d104c7d-be1f-41cb-86d9-585303776a04",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:16:37+00:00",
+    "event": {
+      "id": "7d57fe7f-997b-43aa-a234-2f8cbc7a5ab5",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:17:02+00:00",
+    "event": {
+      "id": "84959fe8-0e3d-4142-9965-f4ca8ca095ef",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:17:45+00:00",
+    "event": {
+      "id": "27b39667-33e8-4abb-85e5-5b3f73166d95",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:17:51+00:00",
+    "event": {
+      "id": "c7390bca-f925-4fb0-8c9b-b1a2309a0481",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:18:15+00:00",
+    "event": {
+      "id": "0879baf5-7be5-47c1-9b75-2588c6506a58",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:18:35+00:00",
+    "event": {
+      "id": "5289292f-2e60-409c-b4ef-e3125e637227",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:18:51+00:00",
+    "event": {
+      "id": "d712de5d-ebe2-4000-b0b6-cf57499c0321",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:19:08+00:00",
+    "event": {
+      "id": "4b51b750-7975-4d50-9901-a089a78d15f1",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:19:51+00:00",
+    "event": {
+      "id": "ddb74bbe-a663-4de7-95e8-2210e1709d9c",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:21:08+00:00",
+    "event": {
+      "id": "23af807a-fa5c-4dc1-96bd-a456439fcbbc",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:21:15+00:00",
+    "event": {
+      "id": "18f9738e-0bd1-423e-96e1-2d98d94ad8f0",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:22:32+00:00",
+    "event": {
+      "id": "16c72475-8537-4fe8-9281-9aa42affe46d",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:23:21+00:00",
+    "event": {
+      "id": "eef46239-fef0-4e0d-948d-d68855083634",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:23:44+00:00",
+    "event": {
+      "id": "8039948b-8b92-4177-94d9-7e1ea5d14cfc",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:23:59+00:00",
+    "event": {
+      "id": "32181876-85e6-4b56-8597-bc6a21bdd3b1",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:24:07+00:00",
+    "event": {
+      "id": "493c73e1-735b-4567-9a83-5bafa7a1387d",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:24:55+00:00",
+    "event": {
+      "id": "2b4a6344-19dd-4261-8da7-6912528aeae9",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:25:44+00:00",
+    "event": {
+      "id": "77206bf0-56f9-40e9-bbce-cdc1f8665258",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:26:05+00:00",
+    "event": {
+      "id": "48b1bb88-7513-4d6e-9498-4575df0380f7",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:27:42+00:00",
+    "event": {
+      "id": "494e2f36-e418-44fe-91a7-8b76c6a9365a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:28:07+00:00",
+    "event": {
+      "id": "050baa11-1608-4b04-a58a-0d9b42278d80",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:28:18+00:00",
+    "event": {
+      "id": "163445cd-8f56-4838-9b7f-ca58b097edaf",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:28:29+00:00",
+    "event": {
+      "id": "8e8491f7-b47b-4b00-8852-25fcd504e370",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:28:35+00:00",
+    "event": {
+      "id": "61f3fd36-b8a0-4a68-a906-183c58c2311f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:29:12+00:00",
+    "event": {
+      "id": "774afadf-9f43-4503-b8bf-fcbf711824e0",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:29:34+00:00",
+    "event": {
+      "id": "fe1a1445-0b58-4585-9172-d8514ab71486",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:30:13+00:00",
+    "event": {
+      "id": "3e91161e-13f1-449e-9bd6-fae0d84bf72e",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:30:30+00:00",
+    "event": {
+      "id": "3f146c9b-4c00-4120-96e7-9b77821bddb4",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:30:33+00:00",
+    "event": {
+      "id": "f2646663-6cd1-4118-86cb-aabfd763883e",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:31:48+00:00",
+    "event": {
+      "id": "4022c5a3-38c8-42a3-9342-4e6bcdca040f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:32:31+00:00",
+    "event": {
+      "id": "0721e566-0068-4aa9-b85b-991c0c0e04b2",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:33:21+00:00",
+    "event": {
+      "id": "ae052735-ec10-448b-b50b-f09134503e9e",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:34:01+00:00",
+    "event": {
+      "id": "c084c6af-eca4-4fb8-b1aa-4ab32035b38e",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:34:44+00:00",
+    "event": {
+      "id": "5abd8d54-8667-4fc1-a0c9-adc0cab67f72",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:35:20+00:00",
+    "event": {
+      "id": "a9dac585-2985-4f77-b69d-0c4d64ecca43",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:35:49+00:00",
+    "event": {
+      "id": "fa60351c-c9b1-4858-a089-b282aa86d07a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:36:47+00:00",
+    "event": {
+      "id": "7648d8a1-ca65-488e-b32b-325da8fb2c15",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:37:27+00:00",
+    "event": {
+      "id": "7b8f0ff5-b8d0-405a-97fa-1f1f8c92f21a",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:38:15+00:00",
+    "event": {
+      "id": "a29a1df7-a39f-431e-8aff-3f3507d774d8",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:38:47+00:00",
+    "event": {
+      "id": "eb66fe20-0da9-4206-b094-4b00850f12cd",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:40:13+00:00",
+    "event": {
+      "id": "b81c6bb1-b4f1-4f30-bb56-b6c6b14fcbfe",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:40:13+00:00",
+    "event": {
+      "id": "024c6a6a-6184-4451-968c-aee43bf2ffed",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:41:08+00:00",
+    "event": {
+      "id": "b31b399f-1291-425f-a414-0c35ea1e9a62",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:42:09+00:00",
+    "event": {
+      "id": "9a6c1d36-2e52-42d5-b183-3ed01ec54e6c",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:43:00+00:00",
+    "event": {
+      "id": "f8af7b15-08e8-4aab-8583-9f75ddd74045",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:44:18+00:00",
+    "event": {
+      "id": "c110614a-5f56-418a-8fef-fa000c9309e3",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:44:22+00:00",
+    "event": {
+      "id": "e43b64dd-54d9-427f-a379-317f5f4f50a3",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:46:05+00:00",
+    "event": {
+      "id": "bc38456c-afcc-4e37-bdb5-477200f9c684",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:46:17+00:00",
+    "event": {
+      "id": "f4826ffa-e075-4d2f-be7e-4d150e6322dc",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:47:11+00:00",
+    "event": {
+      "id": "a51109af-f6bd-4afb-9029-821cc19970c3",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:47:26+00:00",
+    "event": {
+      "id": "8559064c-e27f-448e-a9b3-b91e66d03802",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:47:40+00:00",
+    "event": {
+      "id": "d8a5a94a-32fa-437c-b043-736500ffe400",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:49:20+00:00",
+    "event": {
+      "id": "93caa9f5-34ce-4d32-bba4-db28f122ac7c",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:50:47+00:00",
+    "event": {
+      "id": "7a83383b-c674-478d-afa5-26e5cfe9f846",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:50:50+00:00",
+    "event": {
+      "id": "2a12b285-2c06-4fcd-b6b9-77eb2b0778a8",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:50:59+00:00",
+    "event": {
+      "id": "a6d5df79-021e-4d00-b08b-0f59bb297448",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:52:02+00:00",
+    "event": {
+      "id": "55336685-6ead-4efd-9e82-fbcf43d3f424",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:52:52+00:00",
+    "event": {
+      "id": "392abcf1-401c-4ce8-90cd-9fbe2ce632d6",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:52:54+00:00",
+    "event": {
+      "id": "f1469e57-c06b-427f-b9ab-c6cb7c613b51",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "dc01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:53:33+00:00",
+    "event": {
+      "id": "831c09e3-804f-43a2-ae03-2e62aaffb1a4",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:54:39+00:00",
+    "event": {
+      "id": "2f91160f-3bed-4f2f-9a39-5423d290ca4f",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:55:14+00:00",
+    "event": {
+      "id": "9198172e-cea4-4f6d-af62-c515e924ada0",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.5"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:55:14+00:00",
+    "event": {
+      "id": "ede45bb8-d8e1-452c-abaa-a837aeb5bb0e",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.9"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-db01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:55:18+00:00",
+    "event": {
+      "id": "a9ccb0cc-39c1-42c7-b7d4-bbd59d3f525d",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:55:18+00:00",
+    "event": {
+      "id": "d291d094-5d1f-4558-b967-092fbc4c8e3b",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-045"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:55:19+00:00",
+    "event": {
+      "id": "67d92779-70ca-4ee3-97b0-9dd04ffee7d7",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "srv-web01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:55:20+00:00",
+    "event": {
+      "id": "607df889-19fa-4531-9be9-54735cf30335",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:55:24+00:00",
+    "event": {
+      "id": "b134434e-7687-4bb2-9dee-ad2060af3454",
+      "type": "dns_query",
+      "action": "query",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "10.0.10.5",
+      "port": 53
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "udp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 5,
+    "message": "A record lookup"
+  },
+  {
+    "@timestamp": "2026-09-19T11:55:56+00:00",
+    "event": {
+      "id": "22d1bc4b-1182-40cf-924a-eb68c062a44f",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.21"
+    },
+    "destination": {
+      "ip": "198.51.100.23",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:57:23+00:00",
+    "event": {
+      "id": "c187f221-a3a6-4859-81d2-f7c03f9fa5a4",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.45"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:58:13+00:00",
+    "event": {
+      "id": "7bcb7cd5-4ee7-42bc-82da-0e240b08664b",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.20.102"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 80
+    },
+    "host": {
+      "name": "mon01"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  },
+  {
+    "@timestamp": "2026-09-19T11:58:59+00:00",
+    "event": {
+      "id": "451b1974-9f10-4044-b63c-ba4f5bfdac4d",
+      "type": "firewall_allow",
+      "action": "allow",
+      "kind": "alert"
+    },
+    "source": {
+      "ip": "10.0.10.11"
+    },
+    "destination": {
+      "ip": "203.0.113.9",
+      "port": 443
+    },
+    "host": {
+      "name": "wks-102"
+    },
+    "network": {
+      "protocol": "tcp"
+    },
+    "threat": {
+      "kill_chain_phase": null
+    },
+    "severity_num": 10,
+    "message": "Connection permitted"
+  }
+]
